@@ -96,9 +96,12 @@ the source platforms' terms.
 
 ## License
 
-Code is released under the MIT License (see `LICENSE`). Derived data files are shared
-for reproduction under the same terms, subject to the platform-terms note above.
+Code is released under the **MIT License** (see `LICENSE`). The derived **data** deposited
+on OSF are released under **CC0 1.0**, subject to the platform-terms note above. (This
+code/data split is intentional: permissive-with-attribution for software, public-domain
+dedication for the derived data.)
 
 ## Citation
 
-See `CITATION.cff`. Please cite the article; the DOI will be added on acceptance.
+See `CITATION.cff`. Please cite the article. Archive DOI: https://doi.org/10.17605/OSF.IO/BFWZE
+(OSF). The public GitHub URL is released on acceptance.

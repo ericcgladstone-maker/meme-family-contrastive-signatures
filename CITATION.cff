@@ -9,4 +9,8 @@ authors:
   - given-names: David C.
     family-names: Thompson
 license: MIT
-repository-code: "PLACEHOLDER — insert public GitHub URL on acceptance"
+identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/BFWZE"
+    description: "OSF project archive (data under CC0 1.0)"
+repository-code: "PLACEHOLDER — public GitHub URL released on acceptance"
