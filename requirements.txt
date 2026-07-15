@@ -1,0 +1,21 @@
+# Reproducibility environment for
+# "Measuring Meme-Family Structure With Contrastive Sparse Features"
+# Tested with Python 3.9.
+
+numpy==2.0.2
+pandas==2.3.3
+scikit-learn==1.6.1
+matplotlib>=3.7
+Pillow>=10
+jsonschema>=4
+
+# Representation stack (CLIP ViT-L/14 + Matryoshka multimodal SAE)
+torch>=2.0
+open_clip_torch>=2.20
+
+# Surface baselines
+imagehash==4.3.2
+ocrmac            # macOS Vision OCR wrapper; macOS only (used only to regenerate OCR features)
+
+# Manuscript assembly (only for figures/build_docx.py)
+python-docx>=1.1
