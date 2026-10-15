@@ -1,0 +1,356 @@
+{
+  "rule_worked_example": "closest to median clean contrastive recovery AUROC (mean of 15th/16th of 30); ties lower, then alphabetical",
+  "median_contrastive": 0.9216666666666666,
+  "worked_example": {
+    "family": "trade offer",
+    "contrastive": 0.9199999999999998,
+    "n": 19
+  },
+  "illustrative": {
+    "largest_laion_advantage": {
+      "family": "pov you are x",
+      "diff": 0.48
+    },
+    "smallest_laion_advantage": {
+      "family": "wojak soyjak",
+      "diff": -0.06333333333333341
+    },
+    "largest_classifier_gap": {
+      "family": "distracted boyfriend",
+      "diff": 0.20799999999999996
+    }
+  },
+  "matrix": [
+    {
+      "family": "hide the pain harold",
+      "n": 23.0,
+      "recurrence": 0.9006521739130436,
+      "clip_centroid": 0.8143478260869565,
+      "surf_composite": 0.698913043478261,
+      "sparse_centroid": 0.7441304347826088,
+      "sparse_knn": 0.7754347826086957,
+      "contrastive": 0.992391304347826,
+      "logistic": 0.9945652173913044
+    },
+    {
+      "family": "two buttons daily struggle",
+      "n": 17.0,
+      "recurrence": 0.9779411764705882,
+      "clip_centroid": 0.9432352941176472,
+      "surf_composite": 0.8605882352941177,
+      "sparse_centroid": 0.9329411764705882,
+      "sparse_knn": 0.9170588235294116,
+      "contrastive": 0.99,
+      "logistic": 0.9973529411764704
+    },
+    {
+      "family": "expanding brain galaxy brain",
+      "n": 21.0,
+      "recurrence": 0.9197619047619048,
+      "clip_centroid": 0.9792857142857144,
+      "surf_composite": 0.8926190476190476,
+      "sparse_centroid": 0.9492857142857142,
+      "sparse_knn": 0.9052380952380956,
+      "contrastive": 0.9864285714285714,
+      "logistic": 0.9990476190476192
+    },
+    {
+      "family": "skill issue git gud cope seethe mald",
+      "n": 25.0,
+      "recurrence": 0.8606,
+      "clip_centroid": 0.8997999999999999,
+      "surf_composite": 0.9123,
+      "sparse_centroid": 0.8804,
+      "sparse_knn": 0.8640000000000001,
+      "contrastive": 0.9864,
+      "logistic": 0.9932
+    },
+    {
+      "family": "pepe the frog",
+      "n": 25.0,
+      "recurrence": 0.9916,
+      "clip_centroid": 1.0,
+      "surf_composite": 0.5408,
+      "sparse_centroid": 0.9972,
+      "sparse_knn": 0.9942,
+      "contrastive": 0.9834,
+      "logistic": 0.9994
+    },
+    {
+      "family": "lolcats i can has cheezburger lolspeak",
+      "n": 25.0,
+      "recurrence": 0.979,
+      "clip_centroid": 0.9194,
+      "surf_composite": 0.5346,
+      "sparse_centroid": 0.943,
+      "sparse_knn": 0.8119999999999998,
+      "contrastive": 0.979,
+      "logistic": 0.9894
+    },
+    {
+      "family": "x all the y",
+      "n": 23.0,
+      "recurrence": 0.9478260869565216,
+      "clip_centroid": 0.883695652173913,
+      "surf_composite": 0.8611956521739133,
+      "sparse_centroid": 0.8878260869565215,
+      "sparse_knn": 0.7858695652173914,
+      "contrastive": 0.967391304347826,
+      "logistic": 0.987826086956522
+    },
+    {
+      "family": "doge such x much y very z",
+      "n": 25.0,
+      "recurrence": 0.9705,
+      "clip_centroid": 0.8902,
+      "surf_composite": 0.5828000000000001,
+      "sparse_centroid": 0.794,
+      "sparse_knn": 0.7498,
+      "contrastive": 0.9652,
+      "logistic": 0.9876
+    },
+    {
+      "family": "stonks meme man series",
+      "n": 22.0,
+      "recurrence": 0.7993181818181818,
+      "clip_centroid": 0.9227272727272726,
+      "surf_composite": 0.9775,
+      "sparse_centroid": 0.926818181818182,
+      "sparse_knn": 0.9120454545454546,
+      "contrastive": 0.9592045454545456,
+      "logistic": 0.9765909090909092
+    },
+    {
+      "family": "they did surgery on a grape",
+      "n": 25.0,
+      "recurrence": 0.7716,
+      "clip_centroid": 0.882,
+      "surf_composite": 0.8005000000000001,
+      "sparse_centroid": 0.8519999999999999,
+      "sparse_knn": 0.8628,
+      "contrastive": 0.9518,
+      "logistic": 0.9944
+    },
+    {
+      "family": "disaster girl",
+      "n": 21.0,
+      "recurrence": 0.6815476190476191,
+      "clip_centroid": 0.7692857142857144,
+      "surf_composite": 0.8020238095238096,
+      "sparse_centroid": 0.8307142857142857,
+      "sparse_knn": 0.7319047619047618,
+      "contrastive": 0.9496428571428572,
+      "logistic": 0.9671428571428572
+    },
+    {
+      "family": "american chopper argument",
+      "n": 18.0,
+      "recurrence": 0.8875000000000001,
+      "clip_centroid": 0.9380555555555554,
+      "surf_composite": 0.8865277777777778,
+      "sparse_centroid": 0.9355555555555556,
+      "sparse_knn": 0.9122222222222222,
+      "contrastive": 0.935,
+      "logistic": 0.996388888888889
+    },
+    {
+      "family": "coffin dance",
+      "n": 26.0,
+      "recurrence": 0.5482692307692307,
+      "clip_centroid": 0.8896153846153846,
+      "surf_composite": 0.4531730769230769,
+      "sparse_centroid": 0.8880769230769231,
+      "sparse_knn": 0.8607692307692306,
+      "contrastive": 0.93125,
+      "logistic": 0.9667307692307692
+    },
+    {
+      "family": "y all got anymore of",
+      "n": 17.0,
+      "recurrence": 0.8520588235294119,
+      "clip_centroid": 0.9591176470588236,
+      "surf_composite": 0.9847058823529412,
+      "sparse_centroid": 0.893235294117647,
+      "sparse_knn": 0.8841176470588236,
+      "contrastive": 0.9302941176470588,
+      "logistic": 0.9714705882352942
+    },
+    {
+      "family": "okay boomer",
+      "n": 24.0,
+      "recurrence": 0.7172916666666667,
+      "clip_centroid": 0.7016666666666667,
+      "surf_composite": 0.8983333333333333,
+      "sparse_centroid": 0.75625,
+      "sparse_knn": 0.7704166666666667,
+      "contrastive": 0.9233333333333336,
+      "logistic": 0.9375
+    },
+    {
+      "family": "trade offer",
+      "n": 19.0,
+      "recurrence": 0.7910526315789473,
+      "clip_centroid": 0.8799999999999999,
+      "surf_composite": 1.0,
+      "sparse_centroid": 0.85,
+      "sparse_knn": 0.8463157894736844,
+      "contrastive": 0.9199999999999998,
+      "logistic": 0.9957894736842104
+    },
+    {
+      "family": "this is fine",
+      "n": 26.0,
+      "recurrence": 0.7038461538461539,
+      "clip_centroid": 0.8290384615384616,
+      "surf_composite": 0.8738461538461539,
+      "sparse_centroid": 0.7742307692307692,
+      "sparse_knn": 0.7180769230769231,
+      "contrastive": 0.908076923076923,
+      "logistic": 0.9403846153846156
+    },
+    {
+      "family": "roll safe",
+      "n": 26.0,
+      "recurrence": 0.8265384615384614,
+      "clip_centroid": 0.8817307692307692,
+      "surf_composite": 0.8641346153846153,
+      "sparse_centroid": 0.8269230769230771,
+      "sparse_knn": 0.9019230769230768,
+      "contrastive": 0.8852884615384616,
+      "logistic": 0.9594230769230768
+    },
+    {
+      "family": "woman yelling at a cat",
+      "n": 22.0,
+      "recurrence": 0.6761363636363636,
+      "clip_centroid": 0.6509090909090909,
+      "surf_composite": 0.7079545454545455,
+      "sparse_centroid": 0.6984090909090909,
+      "sparse_knn": 0.693409090909091,
+      "contrastive": 0.8827272727272727,
+      "logistic": 0.9440909090909092
+    },
+    {
+      "family": "surprised pikachu",
+      "n": 18.0,
+      "recurrence": 0.7558333333333334,
+      "clip_centroid": 0.8630555555555556,
+      "surf_composite": 0.7388888888888888,
+      "sparse_centroid": 0.8041666666666667,
+      "sparse_knn": 0.7958333333333333,
+      "contrastive": 0.873611111111111,
+      "logistic": 0.95
+    },
+    {
+      "family": "drake hotline bling drakeposting",
+      "n": 19.0,
+      "recurrence": 0.7136842105263159,
+      "clip_centroid": 0.7197368421052631,
+      "surf_composite": 0.805657894736842,
+      "sparse_centroid": 0.7544736842105263,
+      "sparse_knn": 0.7573684210526316,
+      "contrastive": 0.8571052631578947,
+      "logistic": 0.9276315789473686
+    },
+    {
+      "family": "loss is this loss",
+      "n": 25.0,
+      "recurrence": 0.7308,
+      "clip_centroid": 0.7742,
+      "surf_composite": 0.6491,
+      "sparse_centroid": 0.7544000000000001,
+      "sparse_knn": 0.74,
+      "contrastive": 0.847,
+      "logistic": 0.9464
+    },
+    {
+      "family": "pov you are x",
+      "n": 25.0,
+      "recurrence": 0.7854000000000001,
+      "clip_centroid": 0.6374,
+      "surf_composite": 0.9247999999999998,
+      "sparse_centroid": 0.8125999999999999,
+      "sparse_knn": 0.7878999999999999,
+      "contrastive": 0.8428,
+      "logistic": 0.8991999999999999
+    },
+    {
+      "family": "npc i support the current thing",
+      "n": 15.0,
+      "recurrence": 0.6456666666666666,
+      "clip_centroid": 0.7983333333333335,
+      "surf_composite": 0.8616666666666666,
+      "sparse_centroid": 0.7013333333333333,
+      "sparse_knn": 0.7946666666666666,
+      "contrastive": 0.8315,
+      "logistic": 0.9166666666666666
+    },
+    {
+      "family": "is this a pigeon",
+      "n": 25.0,
+      "recurrence": 0.7776,
+      "clip_centroid": 0.8477999999999999,
+      "surf_composite": 0.9532,
+      "sparse_centroid": 0.8138,
+      "sparse_knn": 0.7416000000000001,
+      "contrastive": 0.8266,
+      "logistic": 0.932
+    },
+    {
+      "family": "nobody literally no one",
+      "n": 26.0,
+      "recurrence": 0.7682692307692307,
+      "clip_centroid": 0.8286538461538462,
+      "surf_composite": 0.9271153846153848,
+      "sparse_centroid": 0.818076923076923,
+      "sparse_knn": 0.7726923076923077,
+      "contrastive": 0.7976923076923076,
+      "logistic": 0.9232692307692308
+    },
+    {
+      "family": "wojak soyjak",
+      "n": 25.0,
+      "recurrence": 0.813,
+      "clip_centroid": 0.8926,
+      "surf_composite": 0.4663,
+      "sparse_centroid": 0.8000000000000002,
+      "sparse_knn": 0.8138,
+      "contrastive": 0.7974,
+      "logistic": 0.979
+    },
+    {
+      "family": "yo dawg i heard you like",
+      "n": 25.0,
+      "recurrence": 0.4993999999999999,
+      "clip_centroid": 0.6432000000000001,
+      "surf_composite": 0.7278,
+      "sparse_centroid": 0.5993999999999999,
+      "sparse_knn": 0.6794000000000001,
+      "contrastive": 0.7945,
+      "logistic": 0.9376
+    },
+    {
+      "family": "distracted boyfriend",
+      "n": 20.0,
+      "recurrence": 0.7050000000000001,
+      "clip_centroid": 0.8347499999999999,
+      "surf_composite": 0.46175,
+      "sparse_centroid": 0.6780000000000002,
+      "sparse_knn": 0.758,
+      "contrastive": 0.74175,
+      "logistic": 0.94975
+    },
+    {
+      "family": "mocking spongebob",
+      "n": 25.0,
+      "recurrence": 0.713,
+      "clip_centroid": 0.8236000000000001,
+      "surf_composite": 0.71,
+      "sparse_centroid": 0.8106,
+      "sparse_knn": 0.853,
+      "contrastive": 0.7319999999999999,
+      "logistic": 0.9352
+    }
+  ],
+  "matrix_missing_columns": []
+}

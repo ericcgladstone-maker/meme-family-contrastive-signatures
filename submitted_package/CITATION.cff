@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article."
+title: "Measuring Meme-Family Structure With Contrastive Sparse Features: Canonical Resemblance and Reddit Engagement"
+type: software
+authors:
+  - given-names: Eric
+    family-names: Gladstone
+    orcid: "https://orcid.org/0000-0003-4393-050X"
+  - given-names: David C.
+    family-names: Thompson
+    orcid: "https://orcid.org/0000-0001-8050-3852"
+license: MIT
+identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/BFWZE"
+    description: "OSF project archive (data under CC0 1.0)"
+repository-code: "PLACEHOLDER — public GitHub URL released on acceptance"

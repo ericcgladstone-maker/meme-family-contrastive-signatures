@@ -1,0 +1,126 @@
+{
+  "siglip2": {
+    "repo": "google/siglip2-so400m-patch14-384",
+    "revision": "e8e487298228002f3d8a82e0cd5c8ea9c567f57f",
+    "weights": "model.safetensors",
+    "expected_sha256": "9f4f4a49f908ef0c979bce8ff5a5c0e88882dc6c5dc4304387cbbd152558e2c2",
+    "downloaded_sha256": "9f4f4a49f908ef0c979bce8ff5a5c0e88882dc6c5dc4304387cbbd152558e2c2",
+    "verified": true,
+    "local_dir": "/Users/ericgladstone/.cache/huggingface/hub/models--google--siglip2-so400m-patch14-384/snapshots/e8e487298228002f3d8a82e0cd5c8ea9c567f57f",
+    "config_sha256": {
+      "config.json": "73477b47ae9a395f008f993ebd8fb5c16ce0b5e8419ffdf2f5b2183b260f9cff",
+      "preprocessor_config.json": "fb2817d3523ca3b666c859f15320c7138416bc38ffc515e2963f78c868c51c90",
+      "special_tokens_map.json": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+      "tokenizer.json": "cb9140fae3ac5122c972d37adf83e1248471a38147ad76f8215c8872c6fd8322",
+      "tokenizer_config.json": "14afe629fe4959b9e0d51e1852b8d9f7ad074f90a1a7125a4fcdd17f06e78fc8"
+    },
+    "processor": {
+      "loader": "transformers.AutoImageProcessor",
+      "use_fast": false,
+      "embedding": "model.get_image_features(pixel_values)",
+      "dtype": "float32",
+      "device": "cpu",
+      "preprocessor_config_sha256": "fb2817d3523ca3b666c859f15320c7138416bc38ffc515e2963f78c868c51c90",
+      "preprocessor_config_json": {
+        "do_convert_rgb": null,
+        "do_normalize": true,
+        "do_rescale": true,
+        "do_resize": true,
+        "image_mean": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "image_processor_type": "SiglipImageProcessor",
+        "image_std": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "processor_class": "SiglipProcessor",
+        "resample": 2,
+        "rescale_factor": 0.00392156862745098,
+        "size": {
+          "height": 384,
+          "width": 384
+        }
+      }
+    }
+  },
+  "dinov2": {
+    "repo": "facebook/dinov2-large",
+    "revision": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+    "weights": "model.safetensors",
+    "expected_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+    "downloaded_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23",
+    "verified": true,
+    "local_dir": "/Users/ericgladstone/.cache/huggingface/hub/models--facebook--dinov2-large/snapshots/47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+    "config_sha256": {
+      "config.json": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0",
+      "preprocessor_config.json": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    },
+    "processor": {
+      "loader": "transformers.AutoImageProcessor",
+      "use_fast": false,
+      "embedding": "model(pixel_values).last_hidden_state[:,0,:] (CLS)",
+      "dtype": "float32",
+      "device": "cpu",
+      "preprocessor_config_sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828",
+      "preprocessor_config_json": {
+        "crop_size": {
+          "height": 224,
+          "width": 224
+        },
+        "do_center_crop": true,
+        "do_convert_rgb": true,
+        "do_normalize": true,
+        "do_rescale": true,
+        "do_resize": true,
+        "image_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "image_processor_type": "BitImageProcessor",
+        "image_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "resample": 3,
+        "rescale_factor": 0.00392156862745098,
+        "size": {
+          "shortest_edge": 256
+        }
+      }
+    }
+  },
+  "msae": [
+    {
+      "path": "/Users/ericgladstone/.cache/huggingface/hub/models--WolodjaZ--MSAE/snapshots/e6a85249444be9b25c7751e9677464dedfdc7307/ViT-L_14/centered/6144_768_TopKReLU_64_RW_False_False_0.0_cc3m_ViT-L~14_train_image_2905936_768.pth",
+      "sha256": "72afe165f7ec09af182f1ae29e09c24bb463f5fb44d1e4e9f44d699146f85ad9"
+    }
+  ],
+  "clip": {
+    "openai": "open_clip ViT-L-14 pretrained='openai' (via src.analysis.clip_embed)",
+    "laion": "open_clip ViT-L-14 laion2B-s32B-b82K (HF cache models--laion--CLIP-ViT-L-14-laion2B-s32B-b82K)"
+  },
+  "processor_verification": "E2: 680 DEV images embedded; slow-processor re-embedding of 8 DEV images bit-identical (max abs diff 0.0) to stored dev_modern_embeddings.npz",
+  "transformers_version": "4.57.6",
+  "clip_weights": {
+    "openai": [
+      {
+        "path": "/Users/ericgladstone/.cache/huggingface/hub/models--timm--vit_large_patch14_clip_224.openai/snapshots/18d0535469bb561bf468d76c1d73aa35156c922b/open_clip_model.safetensors",
+        "sha256": "9ce2e8a8ebfff3793d7d375ad6d3c35cb9aebf3de7ace0fc7308accab7cd207e",
+        "revision": "18d0535469bb561bf468d76c1d73aa35156c922b"
+      }
+    ],
+    "laion": [
+      {
+        "path": "/Users/ericgladstone/.cache/huggingface/hub/models--laion--CLIP-ViT-L-14-laion2B-s32B-b82K/snapshots/1627032197142fbe2a7cfec626f4ced3ae60d07a/open_clip_pytorch_model.bin",
+        "sha256": "5ddb47339f44e4fd9cace3d3960d38af1b51a25857440cfae90afc44706d7e2b",
+        "revision": "1627032197142fbe2a7cfec626f4ced3ae60d07a"
+      }
+    ]
+  }
+}

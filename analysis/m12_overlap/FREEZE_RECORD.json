@@ -1,0 +1,16 @@
+{
+  "record": "M12 leakage audit freeze (09 F-59)",
+  "created": "2026-10-01T10:04:06-04:00",
+  "hashes": {
+    "SPEC.md": "cc18675502f8a2bba7d31dc97b299873775c7e65de433251c7fe7670724c10eb",
+    "m12_overlap.py": "99ac6ccc2670c5466ed08215885d7acb84978829db5afbc32a551111b07d447c",
+    "dev_index": "8c314c74071a1b2bd6785df41e6eebccdd4956b2be1fbb32fdd959ce19c5fa59",
+    "reddit_manifest": "8d15989e8d425d38bd4b67a1a339ea11c72f03c3bbaf4c9f086eeb8d15112756",
+    "frame": "f474767a8f9f7df58ff905d00d4c4d97edc399b4af469838f38300349229fb4b"
+  },
+  "refrozen_before_any_run": {
+    "at": "2026-10-01T10:04:16-04:00",
+    "previous_script_sha256": "3cf58f59762182da77d1dc017396c2db1a1388248fdfd7a30f7cf55f347f86ec",
+    "reason": "index-order bug in near-duplicate pair construction found on review; no run had occurred"
+  }
+}

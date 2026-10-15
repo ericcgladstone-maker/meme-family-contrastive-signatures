@@ -1,0 +1,82 @@
+{
+  "design": {
+    "mean_background": 425.8,
+    "min_background": 416,
+    "mean_union_decoys": 47.3
+  },
+  "laion_encoder_selected": {
+    "foldlocal_means": {
+      "contrastive": 0.8334727261785972,
+      "clip_centroid": 0.6526604840556527,
+      "recurrence": 0.7237343352027192,
+      "sparse_centroid": 0.7434042969630307,
+      "logistic": 0.8954018041008943
+    },
+    "familylevel_means": {
+      "contrastive": 0.8358241008865249,
+      "clip_centroid": 0.6543895066151482,
+      "recurrence": 0.7274405033970083,
+      "sparse_centroid": 0.7453592304693059,
+      "logistic": 0.9039030564509598
+    },
+    "foldlocal_contrastive_minus_clip": {
+      "mean": 0.1808122421229445,
+      "ci95": [
+        0.1267897543903029,
+        0.23670712485342982
+      ],
+      "n_pos": 26,
+      "n": 30
+    }
+  },
+  "phash_selected": {
+    "foldlocal_means": {
+      "contrastive": 0.8905629949189703,
+      "clip_centroid": 0.8530609720713986,
+      "recurrence": 0.7752124075475749,
+      "sparse_centroid": 0.8120087556004681,
+      "logistic": 0.9584734450680911
+    },
+    "familylevel_means": {
+      "contrastive": 0.8891033159139063,
+      "clip_centroid": 0.8535884519820278,
+      "recurrence": 0.77642553108268,
+      "sparse_centroid": 0.8120703679259061,
+      "logistic": 0.9556991437187123
+    },
+    "foldlocal_contrastive_minus_clip": {
+      "mean": 0.03750202284757188,
+      "ci95": [
+        0.0014879522593364033,
+        0.07609600005427031
+      ],
+      "n_pos": 18,
+      "n": 30
+    }
+  },
+  "openai_dependent_reference": {
+    "foldlocal_means": {
+      "contrastive": 0.8264162508889814,
+      "clip_centroid": 0.4440319543860565,
+      "recurrence": 0.6866573758848684,
+      "sparse_centroid": 0.7136053786545553,
+      "logistic": 0.8978687502540983
+    },
+    "familylevel_means": {
+      "contrastive": 0.8300502447766939,
+      "clip_centroid": 0.4462898738503519,
+      "recurrence": 0.691161245191089,
+      "sparse_centroid": 0.7187301943699003,
+      "logistic": 0.9092422059416664
+    },
+    "foldlocal_contrastive_minus_clip": {
+      "mean": 0.38238429650292505,
+      "ci95": [
+        0.2996300974420667,
+        0.46333543527339205
+      ],
+      "n_pos": 28,
+      "n": 30
+    }
+  }
+}

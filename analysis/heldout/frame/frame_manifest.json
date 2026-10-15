@@ -1,0 +1,15 @@
+{
+  "fetched_at": "2026-09-29T16:16:39-04:00",
+  "source": "https://knowyourmeme.com/memes/confirmed/sitemap.xml",
+  "n_loc": 23352,
+  "n_meme_entry_urls": 16215,
+  "n_unique_slugs": 16215,
+  "lastmod_min": "2023-04-12T14:00:10-04:00",
+  "lastmod_max": "2026-09-29T16:01:47-04:00",
+  "sha256": {
+    "frame_slugs.csv": "9cdc96c1c1c9150ed4f9869b73fb4d01515ad729f4504cc5bc337428863303cb",
+    "kym_robots_2026-09-29.txt": "b3778cf6d9a0c2d262a6af663918af6c812f057778038dd793aba776205de6ca",
+    "kym_robots_wayback_2026-05-01.txt": "a7d75f74820a813f4f3df1f8416c78952b57a77347d23c6a212c01f99e400744",
+    "kym_confirmed_sitemap_2026-09-29.xml": "5702fda71782e7561084cab9de9556a762e059ecacc4fbe624cf0f6264d295ac"
+  }
+}

@@ -1,0 +1,3 @@
+[embed] denominator=4263 to_embed=4263 missing=0 by_status={'cached': 2543, 'fetched': 1720}
+[embed] embedded 4263 in 4.6 min; skipped 0
+[identity A] {'n_common': 2543, 'min_cosine': 0.9999997615814209, 'mean_cosine': 1.0, 'max_abs_diff': 8.58306884765625e-06}

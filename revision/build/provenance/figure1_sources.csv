@@ -1,0 +1,8 @@
+panel,family,variant_id,image_sha256,role
+a,nobody_literally_no_one,pool_nobody_literally_no_one__kymv00043,d0409cd1403796be0519919f7bd6ef238625219109908a11e9a3c16c6a0d68fd,phrasal formula ('nobody:' / varying line) over different base images
+a,nobody_literally_no_one,pool_nobody_literally_no_one__kymv00039,962d605abe66d7851e281f8166827d5ce5905162290a1a7c26dad8338132d491,phrasal formula ('nobody:' / varying line) over different base images
+a,nobody_literally_no_one,pool_nobody_literally_no_one__kymv00034,61243adef7164cf627b5e614368de760360f70e5e1efdfa93a367d450727fba0,phrasal formula ('nobody:' / varying line) over different base images
+b,drake_hotline_bling_drakeposting,pool_drake_hotline_bling_drakeposting__kymv00017,f9ff008b9cece4a8455eff72d44e156d12cd21bd342b86b0c7fe0b3e2c384560,same reject/approve two-row layout with two different base characters within one documented family
+b,drake_hotline_bling_drakeposting,pool_drake_hotline_bling_drakeposting__kymv00023,f947df901f6c188534000b3dc2a33f0ecf0c2df5ac3d7a797c64b346eba17fcb,same reject/approve two-row layout with two different base characters within one documented family
+c,wojak_soyjak,pool_soyjak_pointing__kymv00034,b266ec4a2e287d9d51b8d73aa2561f5604f713928a9e5c865567ec1758898626,family A member (drawn green face in hood)
+c,pepe_the_frog,pool_pepe_the_frog__kymv00022,e238eb45895203cb1109c6e5c85b211e9d3408fa6d78cdc44b24dca780c04efc,family B: the highest-scoring nonmember under the soyjak/wojak signature (fit 0.910)

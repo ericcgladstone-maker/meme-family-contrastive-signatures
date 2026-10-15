@@ -1,0 +1,196 @@
+{
+  "all_pass": true,
+  "n": 38,
+  "tests": [
+    {
+      "name": "draw_60_unique_10_per_bin",
+      "pass": true,
+      "note": "{'n_unique': 60, 'n_repeats': 10, 'n_presentations': 70, 'per_bin': {'B1': 10, 'B2': 10, 'B3': 10, 'B4': 10, 'B5': 10, 'B6': 10}, 'N_h': {'B1': 853, 'B2': 853, 'B3': 852, 'B4': 852, 'B5': 640, 'B6': 213}}"
+    },
+    {
+      "name": "draw_10_repeats_of_sampled_posts",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "draw_70_presentations",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "repeat_copies_at_least_20_after_original",
+      "pass": true,
+      "note": "[29, 25, 51, 35, 25, 32, 25, 22, 25, 23]"
+    },
+    {
+      "name": "draw_deterministic",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "draw_N_h_recorded",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "second_draw_refused",
+      "pass": true,
+      "note": "REFUSING: /Users/ericgladstone/Desktop/PH4_Computational_Revise_Resubmit_Non_Drive_Materials/human_check/test_run/fixture_hc/draw already exists and is not empty (one draw only)"
+    },
+    {
+      "name": "package_items_carry_only_id_and_file",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "package_page_has_no_post_ids_scores_bins_or_community",
+      "pass": true,
+      "note": "[]"
+    },
+    {
+      "name": "package_has_no_key_or_salt",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "package_image_names_are_opaque_ids",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "package_reference_sheet_verified_copy",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "instructions_on_every_item_page",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "form_offers_31_families_plus_none_uncertain",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "label_file_incomplete_refused",
+      "pass": true,
+      "note": "bad_incomplete.csv: incomplete: 1 of 70 presented items have no label"
+    },
+    {
+      "name": "label_file_duplicate_refused",
+      "pass": true,
+      "note": "bad_duplicate.csv: duplicate item_id rows"
+    },
+    {
+      "name": "label_file_unknown_refused",
+      "pass": true,
+      "note": "bad_unknown.csv: 1 unknown item_id(s)"
+    },
+    {
+      "name": "label_file_wrong_coder_refused",
+      "pass": true,
+      "note": "bad_wrong_coder.csv: coder must be 'E' on every row"
+    },
+    {
+      "name": "label_file_wrong_package_refused",
+      "pass": true,
+      "note": "bad_wrong_package.csv: package_id must be 'check' on every row"
+    },
+    {
+      "name": "label_file_invalid_label_refused",
+      "pass": true,
+      "note": "bad_label.csv: 1 invalid label(s), e.g. 'Not A Family'"
+    },
+    {
+      "name": "analysis_refused_before_label_freeze",
+      "pass": true,
+      "note": "REFUSING: labels are not frozen (run freeze_labels.py first)"
+    },
+    {
+      "name": "label_freeze_record_written",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "second_label_freeze_refused",
+      "pass": true,
+      "note": "REFUSING: LABELS_FREEZE.json already exists (labels are frozen once)"
+    },
+    {
+      "name": "all_confirm_gives_confirm_1_everywhere",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "per_bin_n_10_and_categories_sum",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "main_comparison_n_20_each",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "repeat_agreement_10_of_10",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "tampered_labels_refused",
+      "pass": true,
+      "note": "REFUSING: labels file differs from the frozen labels (LABELS_FREEZE.json)"
+    },
+    {
+      "name": "mixed_low_none_high_confirm",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "mixed_middle_bins_uncertain",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "repeat_agreement_counts_the_flip",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "wilson_10_of_20",
+      "pass": true,
+      "note": "[0.2992980081982123, 0.7007019918017877]"
+    },
+    {
+      "name": "wilson_0_of_20",
+      "pass": true,
+      "note": "[0.0, 0.16112515805281938]"
+    },
+    {
+      "name": "newcombe_contains_d_and_is_bounded",
+      "pass": true,
+      "note": "[0.1907102527686737, 0.6953570553524234]"
+    },
+    {
+      "name": "real_freeze_absent_refuses",
+      "pass": true,
+      "note": "no 15b FREEZE_RECORD.json (freeze not done)"
+    },
+    {
+      "name": "real_mode_checks_freeze_before_loading_frame",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "live_draw_not_created_by_harness",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "name": "superseded_15_freeze_record_untouched_and_still_verifies_hashes",
+      "pass": true,
+      "note": "H-1 and/or H-7 not recorded as satisfied"
+    }
+  ]
+}

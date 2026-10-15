@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="465.437031pt" height="119.736pt" viewBox="0 0 465.437031 119.736" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-01T21:08:07.641275</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 119.736 
+L 465.437031 119.736 
+L 465.437031 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.029739 77.5836 
+L 101.658943 77.5836 
+Q 104.779409 77.5836 104.779409 73.7532 
+L 104.779409 22.0428 
+Q 104.779409 18.2124 101.658943 18.2124 
+L 40.029739 18.2124 
+Q 36.909273 18.2124 36.909273 22.0428 
+L 36.909273 73.7532 
+Q 36.909273 77.5836 40.029739 77.5836 
+z
+" clip-path="url(#p6d6e8d6bea)" style="fill: #eef4fb; stroke: #2c6fb0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 120.966826 77.5836 
+L 182.59603 77.5836 
+Q 185.716496 77.5836 185.716496 73.7532 
+L 185.716496 22.0428 
+Q 185.716496 18.2124 182.59603 18.2124 
+L 120.966826 18.2124 
+Q 117.84636 18.2124 117.84636 22.0428 
+L 117.84636 73.7532 
+Q 117.84636 77.5836 120.966826 77.5836 
+z
+" clip-path="url(#p6d6e8d6bea)" style="fill: #eef4fb; stroke: #2c6fb0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 201.903914 77.5836 
+L 263.533118 77.5836 
+Q 266.653584 77.5836 266.653584 73.7532 
+L 266.653584 22.0428 
+Q 266.653584 18.2124 263.533118 18.2124 
+L 201.903914 18.2124 
+Q 198.783448 18.2124 198.783448 22.0428 
+L 198.783448 73.7532 
+Q 198.783448 77.5836 201.903914 77.5836 
+z
+" clip-path="url(#p6d6e8d6bea)" style="fill: #eef4fb; stroke: #2c6fb0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 282.841001 77.5836 
+L 344.470205 77.5836 
+Q 347.590671 77.5836 347.590671 73.7532 
+L 347.590671 22.0428 
+Q 347.590671 18.2124 344.470205 18.2124 
+L 282.841001 18.2124 
+Q 279.720535 18.2124 279.720535 22.0428 
+L 279.720535 73.7532 
+Q 279.720535 77.5836 282.841001 77.5836 
+z
+" clip-path="url(#p6d6e8d6bea)" style="fill: #eef4fb; stroke: #2c6fb0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 363.778088 77.5836 
+L 425.407292 77.5836 
+Q 428.527758 77.5836 428.527758 73.7532 
+L 428.527758 22.0428 
+Q 428.527758 18.2124 425.407292 18.2124 
+L 363.778088 18.2124 
+Q 360.657622 18.2124 360.657622 22.0428 
+L 360.657622 73.7532 
+Q 360.657622 77.5836 363.778088 77.5836 
+z
+" clip-path="url(#p6d6e8d6bea)" style="fill: #eef4fb; stroke: #2c6fb0; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(41.241497 42.418209)">707 within-family</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(48.696528 49.774375)">deduplicated</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(57.063716 57.130541)">variants</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 107.556907 47.898 
+Q 111.310959 47.898 113.946977 47.898 
+" style="fill: none; stroke: #2c6fb0; stroke-linecap: round"/>
+    <path d="M 110.746977 46.298 
+L 113.946977 47.898 
+L 110.746977 49.498 
+z
+" style="fill: #2c6fb0; stroke: #2c6fb0; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(137.100334 42.418209)">SHA-256</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(125.485084 49.774375)">exact-duplicate</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(137.935459 57.130541)">removal</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 188.493995 47.898 
+Q 192.248047 47.898 194.884065 47.898 
+" style="fill: none; stroke: #2c6fb0; stroke-linecap: round"/>
+    <path d="M 191.684065 46.298 
+L 194.884065 47.898 
+L 191.684065 49.498 
+z
+" style="fill: #2c6fb0; stroke: #2c6fb0; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(221.993641 38.740127)">pHash</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(208.241703 46.096292)">near-duplicate</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(203.976828 53.452458)">removal (hash 8,</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(207.696641 60.808623)">Hamming ≤ 6)</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 269.431082 47.898 
+Q 273.185134 47.898 275.821152 47.898 
+" style="fill: none; stroke: #2c6fb0; stroke-linecap: round"/>
+    <path d="M 272.621152 46.298 
+L 275.821152 47.898 
+L 272.621152 49.498 
+z
+" style="fill: #2c6fb0; stroke: #2c6fb0; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(292.617041 42.418209)">Cross-family</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(300.886478 49.774375)">overlap</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(296.778853 57.130541)">resolution</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 350.36817 47.898 
+Q 354.122222 47.898 356.75824 47.898 
+" style="fill: none; stroke: #2c6fb0; stroke-linecap: round"/>
+    <path d="M 353.55824 46.298 
+L 356.75824 47.898 
+L 353.55824 49.498 
+z
+" style="fill: #2c6fb0; stroke: #2c6fb0; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(371.708565 42.418209)">680 analyzed</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(380.812065 49.774375)">variants</text>
+    <text style="font: 6.8px 'DejaVu Sans'" transform="translate(373.243347 57.130541)">(31 families)</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #444444; font: italic 6.5px 'DejaVu Sans'; text-anchor: middle" x="232.718516" y="99.965594" transform="rotate(-0 232.718516 99.965594)">Cross-family step: 23 exact Wojak/Soyjak duplicates merged into one family; 1 image filed under four families excluded as contamination.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6d6e8d6bea">
+   <rect x="31.838516" y="7.2" width="401.76" height="105.336"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "labels_file": "analysis/human_check/labels/labels_E.csv",
+  "sha256": "9459bc98069ecd60261f6b327cd84c7c79c207d5b16057cf90ccba003f4ce46d",
+  "n_rows": 70,
+  "frozen_at": "2026-09-30T23:40:15-04:00",
+  "note": "Frozen before the key was opened (15b \u00a76). Any later change to the labels file is refused."
+}

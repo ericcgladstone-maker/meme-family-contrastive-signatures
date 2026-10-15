@@ -1,0 +1,3 @@
+[bank] 31 signatures (sizes: min 2)
+[identity B] {'all': (1.0, 5e-05, 1.0), 'cached': (1.0, 5e-05, 1.0), 'fetched': (1.0, 5e-05, 1.0)}
+[subset vs submitted scores] {'raw_max_fit': 1.6608959696462477e-07, 'calib_max_fit': 1.591886385376995e-06, 'clf_max_prob': 1.1102230246251565e-16, 'sae_centroid_max': 1.1920928955078125e-07}

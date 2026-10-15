@@ -1,0 +1,20 @@
+{
+  "bytes_identical": true,
+  "PIL_format": [
+    "PNG",
+    "PNG"
+  ],
+  "pixels_identical": true,
+  "clip_openai_identical": true,
+  "clip_laion_identical": true,
+  "msae_identical": true,
+  "phash_identical": true,
+  "siglip2_identical": true,
+  "dinov2_identical": true,
+  "ocr_texts": [
+    "I'M NOT INTERESTED IN BEING POLITE OR HETEROSEXUAL. EdHoringion.tumbir.com",
+    "I'M NOT INTERESTED IN BEING POLITE OR HETEROSEXUAL. EdHoringion.tumbir.com"
+  ],
+  "ocr_identical": true,
+  "ALL_IDENTICAL": true
+}

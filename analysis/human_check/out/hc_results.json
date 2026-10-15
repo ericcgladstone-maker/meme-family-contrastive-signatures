@@ -1,0 +1,311 @@
+{
+  "n_unique": 60,
+  "definitions": "Unblinded descriptive analysis of the author-coded human check (15b \u00a78). Runs only after freeze_labels.py.\n\nPer unique post (the 60 first presentations; repeat copies are used only for within-coder consistency):\n  confirm       the label equals the model-nominated family (display name of raw_argmax)\n  other_family  a listed family other than the nomination\n  none          'none'\n  uncertain     'uncertain'\n  any_family  = confirm + other_family",
+  "per_bin": {
+    "B1": {
+      "n": 10,
+      "counts": {
+        "confirm": 0,
+        "other_family": 0,
+        "none": 2,
+        "uncertain": 8,
+        "any_family": 0
+      },
+      "proportions": {
+        "confirm": 0.0,
+        "other_family": 0.0,
+        "none": 0.2,
+        "uncertain": 0.8,
+        "any_family": 0.0
+      },
+      "mean_raw_score_by_category": {
+        "none": 0.6817263935112641,
+        "uncertain": 0.6946613693044512
+      },
+      "nominations": {
+        "Mocking Spongebob": 4,
+        "Nobody Literally No One": 1,
+        "Hide The Pain Harold": 1,
+        "This Is Fine": 1,
+        "Okay Boomer": 1,
+        "Expanding Brain Galaxy Brain": 1,
+        "Pov You Are X": 1
+      }
+    },
+    "B2": {
+      "n": 10,
+      "counts": {
+        "confirm": 0,
+        "other_family": 0,
+        "none": 1,
+        "uncertain": 9,
+        "any_family": 0
+      },
+      "proportions": {
+        "confirm": 0.0,
+        "other_family": 0.0,
+        "none": 0.1,
+        "uncertain": 0.9,
+        "any_family": 0.0
+      },
+      "mean_raw_score_by_category": {
+        "none": 0.7634796056438261,
+        "uncertain": 0.7655038247055459
+      },
+      "nominations": {
+        "Nobody Literally No One": 6,
+        "Mocking Spongebob": 2,
+        "Y All Got Anymore Of": 1,
+        "Loss Is This Loss": 1
+      }
+    },
+    "B3": {
+      "n": 10,
+      "counts": {
+        "confirm": 0,
+        "other_family": 0,
+        "none": 1,
+        "uncertain": 9,
+        "any_family": 0
+      },
+      "proportions": {
+        "confirm": 0.0,
+        "other_family": 0.0,
+        "none": 0.1,
+        "uncertain": 0.9,
+        "any_family": 0.0
+      },
+      "mean_raw_score_by_category": {
+        "none": 0.7985914535221159,
+        "uncertain": 0.8139879372838039
+      },
+      "nominations": {
+        "Mocking Spongebob": 7,
+        "Nobody Literally No One": 2,
+        "Loss Is This Loss": 1
+      }
+    },
+    "B4": {
+      "n": 10,
+      "counts": {
+        "confirm": 0,
+        "other_family": 2,
+        "none": 1,
+        "uncertain": 7,
+        "any_family": 2
+      },
+      "proportions": {
+        "confirm": 0.0,
+        "other_family": 0.2,
+        "none": 0.1,
+        "uncertain": 0.7,
+        "any_family": 0.2
+      },
+      "mean_raw_score_by_category": {
+        "other_family": 0.8377265615552707,
+        "none": 0.8423604986512988,
+        "uncertain": 0.8419747561914095
+      },
+      "nominations": {
+        "Nobody Literally No One": 9,
+        "Is This A Pigeon": 1
+      }
+    },
+    "B5": {
+      "n": 10,
+      "counts": {
+        "confirm": 0,
+        "other_family": 0,
+        "none": 0,
+        "uncertain": 10,
+        "any_family": 0
+      },
+      "proportions": {
+        "confirm": 0.0,
+        "other_family": 0.0,
+        "none": 0.0,
+        "uncertain": 1.0,
+        "any_family": 0.0
+      },
+      "mean_raw_score_by_category": {
+        "uncertain": 0.8852622035521328
+      },
+      "nominations": {
+        "Nobody Literally No One": 7,
+        "Expanding Brain Galaxy Brain": 1,
+        "Doge Such X Much Y Very Z": 1,
+        "Is This A Pigeon": 1
+      }
+    },
+    "B6": {
+      "n": 10,
+      "counts": {
+        "confirm": 0,
+        "other_family": 1,
+        "none": 1,
+        "uncertain": 8,
+        "any_family": 1
+      },
+      "proportions": {
+        "confirm": 0.0,
+        "other_family": 0.1,
+        "none": 0.1,
+        "uncertain": 0.8,
+        "any_family": 0.1
+      },
+      "mean_raw_score_by_category": {
+        "other_family": 0.921617296746872,
+        "none": 0.9194178337344404,
+        "uncertain": 0.9184470524880297
+      },
+      "nominations": {
+        "Nobody Literally No One": 9,
+        "Doge Such X Much Y Very Z": 1
+      }
+    }
+  },
+  "main_comparison": {
+    "confirm": {
+      "low_B1_B2": {
+        "k": 0,
+        "n": 20,
+        "p": 0.0,
+        "wilson95": [
+          0.0,
+          0.16112515805281938
+        ]
+      },
+      "high_B5_B6": {
+        "k": 0,
+        "n": 20,
+        "p": 0.0,
+        "wilson95": [
+          0.0,
+          0.16112515805281938
+        ]
+      },
+      "high_minus_low": 0.0,
+      "newcombe95": [
+        -0.16112515805281938,
+        0.16112515805281938
+      ]
+    },
+    "other_family": {
+      "low_B1_B2": {
+        "k": 0,
+        "n": 20,
+        "p": 0.0,
+        "wilson95": [
+          0.0,
+          0.16112515805281938
+        ]
+      },
+      "high_B5_B6": {
+        "k": 1,
+        "n": 20,
+        "p": 0.05,
+        "wilson95": [
+          0.008881448800795402,
+          0.23613119344674205
+        ]
+      },
+      "high_minus_low": 0.05,
+      "newcombe95": [
+        -0.11628906100603141,
+        0.23613119344674205
+      ]
+    },
+    "none": {
+      "low_B1_B2": {
+        "k": 3,
+        "n": 20,
+        "p": 0.15,
+        "wilson95": [
+          0.052368745896216595,
+          0.36041886474075696
+        ]
+      },
+      "high_B5_B6": {
+        "k": 1,
+        "n": 20,
+        "p": 0.05,
+        "wilson95": [
+          0.008881448800795402,
+          0.23613119344674205
+        ]
+      },
+      "high_minus_low": -0.09999999999999999,
+      "newcombe95": [
+        -0.3143987730643778,
+        0.11018249915677099
+      ]
+    },
+    "uncertain": {
+      "low_B1_B2": {
+        "k": 17,
+        "n": 20,
+        "p": 0.85,
+        "wilson95": [
+          0.6395811352592431,
+          0.9476312541037835
+        ]
+      },
+      "high_B5_B6": {
+        "k": 18,
+        "n": 20,
+        "p": 0.9,
+        "wilson95": [
+          0.6989663547715128,
+          0.9721335187862319
+        ]
+      },
+      "high_minus_low": 0.050000000000000044,
+      "newcombe95": [
+        -0.17348688617395602,
+        0.27243952699840157
+      ]
+    },
+    "any_family": {
+      "low_B1_B2": {
+        "k": 0,
+        "n": 20,
+        "p": 0.0,
+        "wilson95": [
+          0.0,
+          0.16112515805281938
+        ]
+      },
+      "high_B5_B6": {
+        "k": 1,
+        "n": 20,
+        "p": 0.05,
+        "wilson95": [
+          0.008881448800795402,
+          0.23613119344674205
+        ]
+      },
+      "high_minus_low": 0.05,
+      "newcombe95": [
+        -0.11628906100603141,
+        0.23613119344674205
+      ]
+    }
+  },
+  "repeat_agreement": {
+    "n_pairs": 10,
+    "agree": 10,
+    "p": 1.0,
+    "wilson95": [
+      0.7224672001371107,
+      0.9999999999999999
+    ],
+    "definition": "identical label on both presentations of a repeated post"
+  },
+  "labels_freeze": {
+    "labels_file": "analysis/human_check/labels/labels_E.csv",
+    "sha256": "9459bc98069ecd60261f6b327cd84c7c79c207d5b16057cf90ccba003f4ce46d",
+    "n_rows": 70,
+    "frozen_at": "2026-09-30T23:40:15-04:00",
+    "note": "Frozen before the key was opened (15b \u00a76). Any later change to the labels file is refused."
+  }
+}

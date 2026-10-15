@@ -1,0 +1,20 @@
+{
+  "screened": 158,
+  "H": 60,
+  "C": 20,
+  "budget": 1500,
+  "shortfall": false,
+  "dispositions": {
+    "analyzable": 80,
+    "anchor_cap": 31,
+    "dev_entry": 3,
+    "nested_dev": 8,
+    "no_gallery": 7,
+    "too_small": 29
+  },
+  "freeze_params": {
+    "MIN_VARIANTS": 10,
+    "IMAGE_SOURCES": "gallery",
+    "EXCLUDE_GATED_IMAGES": true
+  }
+}

@@ -1,0 +1,21 @@
+[fr25_repro] wrote 30 rows
+con_auc             0.8947
+rec_auc             0.7743
+clip_auc            0.8435
+sae_auc             0.8221
+phash_auc           0.7115
+ocr_auc             0.6845
+tmpl_auc            0.5706
+best_surface_auc    0.8126
+adv_con_laion       0.8382
+adv_rec_laion       0.7222
+adv_clip_laion      0.6552
+[m2m4_repro] wrote 30 rows
+contrastive        0.8973
+sae_centroid       0.8206
+sae_knn            0.8140
+logistic_sparse    0.9563
+adv_con_phash      0.8876
+adv_clip_phash     0.8537
+adv_con_clip       0.8325
+adv_clip_clip      0.4459

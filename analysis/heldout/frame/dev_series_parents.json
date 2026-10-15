@@ -1,0 +1,181 @@
+{
+  "fetched_at": "2026-09-29T17:26:20-04:00",
+  "parents": {
+    "american-chopper-argument": "none",
+    "coffin-dance-dancing-pallbearers": "memes/astronomia",
+    "disaster-girl": "none",
+    "distracted-boyfriend": "memes/object-labeling",
+    "doge": "memes/interior-monologue-captioning",
+    "drakeposting": "memes/hotline-bling",
+    "galaxy-brain": "memes/whomst",
+    "hide-the-pain-harold": "memes/stock-photography",
+    "is-this-a-pigeon": "memes/cultures/anime-manga",
+    "lolcats": "subcultures/cats",
+    "loss": "subcultures/ctrlaltdel",
+    "mocking-spongebob": "subcultures/spongebob-squarepants",
+    "nobody": "memes/sites/twitter-x",
+    "real-life-npc": "none",
+    "ok-boomer": "memes/cultures/baby-boomers",
+    "pepe-the-frog": "none",
+    "pov-memes": "memes/sites/tiktok",
+    "roll-safe": "memes/black-twitter",
+    "git-gud": "memes/internet-slang",
+    "stonks": "memes/meme-man-wurds-stonks-edits",
+    "surprised-pikachu": "memes/pikachu",
+    "they-did-surgery-on-a-grape": "none",
+    "this-is-fine": "memes/people/kc-green",
+    "trade-offer": "memes/sites/tiktok",
+    "daily-struggle-two-buttons": "memes/exploitables",
+    "wojak": "none",
+    "woman-yelling-at-a-cat": "memes/smudge-the-cat",
+    "all-the-things": "subcultures/hyperbole-and-a-half",
+    "y-all-got-anymore-of": "subcultures/chappelles-show",
+    "xzibit-yo-dawg": "none"
+  },
+  "status": {
+    "american-chopper-argument": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/american-chopper-argument"
+    },
+    "coffin-dance-dancing-pallbearers": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/coffin-dance-dancing-pallbearers"
+    },
+    "disaster-girl": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/disaster-girl"
+    },
+    "distracted-boyfriend": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/distracted-boyfriend"
+    },
+    "doge": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/sensitive/memes/doge"
+    },
+    "drakeposting": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/drakeposting"
+    },
+    "galaxy-brain": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/galaxy-brain"
+    },
+    "hide-the-pain-harold": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/hide-the-pain-harold"
+    },
+    "is-this-a-pigeon": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/is-this-a-pigeon"
+    },
+    "lolcats": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/lolcats"
+    },
+    "loss": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/loss"
+    },
+    "mocking-spongebob": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/mocking-spongebob"
+    },
+    "nobody": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/nobody"
+    },
+    "real-life-npc": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/real-life-npc"
+    },
+    "ok-boomer": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/sensitive/memes/ok-boomer"
+    },
+    "pepe-the-frog": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/pepe-the-frog"
+    },
+    "pov-memes": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/pov-memes"
+    },
+    "roll-safe": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/roll-safe"
+    },
+    "git-gud": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/git-gud"
+    },
+    "stonks": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/stonks"
+    },
+    "surprised-pikachu": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/surprised-pikachu"
+    },
+    "they-did-surgery-on-a-grape": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/they-did-surgery-on-a-grape"
+    },
+    "this-is-fine": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/this-is-fine"
+    },
+    "trade-offer": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/trade-offer"
+    },
+    "daily-struggle-two-buttons": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/daily-struggle-two-buttons"
+    },
+    "wojak": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/wojak"
+    },
+    "woman-yelling-at-a-cat": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/sensitive/memes/woman-yelling-at-a-cat"
+    },
+    "all-the-things": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/all-the-things"
+    },
+    "y-all-got-anymore-of": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/memes/yall-got-anymore-of-tyrone-biggums"
+    },
+    "xzibit-yo-dawg": {
+      "http": 200,
+      "final_url": "https://knowyourmeme.com/sensitive/memes/xzibit-yo-dawg"
+    }
+  },
+  "dev_parent_set": [
+    "memes/astronomia",
+    "memes/black-twitter",
+    "memes/cultures/anime-manga",
+    "memes/cultures/baby-boomers",
+    "memes/exploitables",
+    "memes/hotline-bling",
+    "memes/interior-monologue-captioning",
+    "memes/internet-slang",
+    "memes/meme-man-wurds-stonks-edits",
+    "memes/object-labeling",
+    "memes/people/kc-green",
+    "memes/pikachu",
+    "memes/sites/tiktok",
+    "memes/sites/twitter-x",
+    "memes/smudge-the-cat",
+    "memes/stock-photography",
+    "memes/whomst",
+    "subcultures/cats",
+    "subcultures/chappelles-show",
+    "subcultures/ctrlaltdel",
+    "subcultures/hyperbole-and-a-half",
+    "subcultures/spongebob-squarepants"
+  ]
+}

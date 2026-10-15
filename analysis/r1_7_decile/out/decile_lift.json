@@ -1,0 +1,12 @@
+{
+  "spec": "09 F-31 (frozen before computation)",
+  "n_frame": 4263,
+  "decile_cutoff_raw_max_fit": 0.8924253785402962,
+  "n_top_decile": 427,
+  "top_decile_rate": 0.2786885245901639,
+  "reference_rate": 0.22519352568613651,
+  "spec_amendment": "09 F-34 (provenance guard; logged before rerun)",
+  "diff_pp": 5.34949989040274,
+  "ratio": 1.2375512295081967,
+  "outcome_provenance": "high_engagement: build/scripts/fr_36_denominator_model.py L139-145; used directly by RUN_e1_m2_reconcile.run(infold=False)"
+}

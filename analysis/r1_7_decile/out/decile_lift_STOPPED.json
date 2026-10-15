@@ -1,0 +1,7 @@
+{
+  "status": "STOPPED by frozen-spec assertion (09 F-31); top-decile rate NOT computed",
+  "assertion": "full-sample high_engagement rate in [0.24, 0.26]",
+  "observed_full_sample_rate": 0.2252,
+  "likely_cause": "fr_36 computed the within-(subreddit, age_window) 75th-percentile thresholds over all collected listings (denominator + hot + selected), not only the 4,263 denominator posts",
+  "needed": "Eric/GPT amendment decision before any rerun; no substitute outcome used"
+}

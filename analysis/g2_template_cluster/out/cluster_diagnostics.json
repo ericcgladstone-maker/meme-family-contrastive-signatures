@@ -1,0 +1,176 @@
+{
+  "n_posts": 4263,
+  "sanity": {
+    "min_pairwise_hamming": 7,
+    "n_pairs_le_6": 0,
+    "note": "fr_36 dedup kept posts differing by > 6 bits from every earlier kept post"
+  },
+  "specs": {
+    "cc10_as_planned": [
+      "cc",
+      10
+    ],
+    "cc6": [
+      "cc",
+      6
+    ],
+    "cc8": [
+      "cc",
+      8
+    ],
+    "greedy12": [
+      "greedy",
+      12
+    ]
+  },
+  "diagnostics": {
+    "cc10_as_planned": {
+      "n_clusters": 4148,
+      "singleton_share_of_posts": 0.956368754398311,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_p99": 2.0,
+      "size_max": 9,
+      "largest_share": 0.00211118930330753,
+      "degenerate_for_5fold": false,
+      "largest_components": [
+        {
+          "size": 9,
+          "share": 0.00211118930330753,
+          "hamming_diameter": 20
+        },
+        {
+          "size": 9,
+          "share": 0.00211118930330753,
+          "hamming_diameter": 24
+        },
+        {
+          "size": 7,
+          "share": 0.0016420361247947454,
+          "hamming_diameter": 22
+        },
+        {
+          "size": 7,
+          "share": 0.0016420361247947454,
+          "hamming_diameter": 16
+        },
+        {
+          "size": 6,
+          "share": 0.0014074595355383533,
+          "hamming_diameter": 16
+        }
+      ]
+    },
+    "cc6": {
+      "n_clusters": 4263,
+      "singleton_share_of_posts": 1.0,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_p99": 1.0,
+      "size_max": 1,
+      "largest_share": 0.0002345765892563922,
+      "degenerate_for_5fold": false,
+      "largest_components": [
+        {
+          "size": 1,
+          "share": 0.0002345765892563922,
+          "hamming_diameter": 0
+        },
+        {
+          "size": 1,
+          "share": 0.0002345765892563922,
+          "hamming_diameter": 0
+        },
+        {
+          "size": 1,
+          "share": 0.0002345765892563922,
+          "hamming_diameter": 0
+        },
+        {
+          "size": 1,
+          "share": 0.0002345765892563922,
+          "hamming_diameter": 0
+        },
+        {
+          "size": 1,
+          "share": 0.0002345765892563922,
+          "hamming_diameter": 0
+        }
+      ]
+    },
+    "cc8": {
+      "n_clusters": 4201,
+      "singleton_share_of_posts": 0.9756040347173353,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_p99": 1.0,
+      "size_max": 6,
+      "largest_share": 0.0014074595355383533,
+      "degenerate_for_5fold": false,
+      "largest_components": [
+        {
+          "size": 6,
+          "share": 0.0014074595355383533,
+          "hamming_diameter": 16
+        },
+        {
+          "size": 5,
+          "share": 0.001172882946281961,
+          "hamming_diameter": 16
+        },
+        {
+          "size": 4,
+          "share": 0.0009383063570255688,
+          "hamming_diameter": 16
+        },
+        {
+          "size": 4,
+          "share": 0.0009383063570255688,
+          "hamming_diameter": 12
+        },
+        {
+          "size": 4,
+          "share": 0.0009383063570255688,
+          "hamming_diameter": 16
+        }
+      ]
+    },
+    "greedy12": {
+      "n_clusters": 4078,
+      "singleton_share_of_posts": 0.9218859957776214,
+      "size_median": 1.0,
+      "size_p90": 1.0,
+      "size_p99": 2.0,
+      "size_max": 8,
+      "largest_share": 0.0018766127140511376,
+      "degenerate_for_5fold": false,
+      "largest_components": [
+        {
+          "size": 8,
+          "share": 0.0018766127140511376,
+          "hamming_diameter": 22
+        },
+        {
+          "size": 6,
+          "share": 0.0014074595355383533,
+          "hamming_diameter": 16
+        },
+        {
+          "size": 5,
+          "share": 0.001172882946281961,
+          "hamming_diameter": 22
+        },
+        {
+          "size": 5,
+          "share": 0.001172882946281961,
+          "hamming_diameter": 14
+        },
+        {
+          "size": 4,
+          "share": 0.0009383063570255688,
+          "hamming_diameter": 12
+        }
+      ]
+    }
+  }
+}

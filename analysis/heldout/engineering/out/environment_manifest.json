@@ -1,0 +1,29 @@
+{
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "macos": "26.6.2",
+  "machine": "arm64",
+  "cpu": [
+    "Apple M2 Pro",
+    "12",
+    "17179869184"
+  ],
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1",
+    "torch": "2.8.0",
+    "open_clip": "3.3.0",
+    "transformers": "4.57.6",
+    "imagehash": "4.3.2",
+    "PIL": "11.3.0",
+    "joblib": "1.5.3",
+    "huggingface_hub": "0.36.2",
+    "safetensors": "0.7.0",
+    "ocrmac": "1.0.1",
+    "objc": "11.1"
+  },
+  "note": "OCR = macOS Vision via ocrmac 1.0.1 (pyobjc 11.1); E4 verified 50/50 exact vs May OCR"
+}

@@ -1,0 +1,49 @@
+{
+  "freeze_timestamp": "2026-09-29T18:50:16-04:00",
+  "protocol_file": "14_Heldout_Family_Protocol.md",
+  "protocol_version": "v1.0 + A-1",
+  "protocol_sha256": "4fd3f83e1241e172c0da7fb0b8aefc708007b57b37a30b0abb1b69a3651cae8f",
+  "bundle_file": "FREEZE_BUNDLE_amend1.json",
+  "bundle_file_sha256": "86d7ab2b8d3017956066e524d7261c9d77fd04f3f557a1511b8267a0fa86c5bf",
+  "bundle_sha256": "fc0baa2458176d38dd2f06c3da27d01c742119f3ceed76b72782b7a7d9e80182",
+  "bundle_items": 33,
+  "freeze_params": {
+    "MIN_VARIANTS": 10,
+    "IMAGE_SOURCES": "gallery",
+    "EXCLUDE_GATED_IMAGES": true
+  },
+  "frame_manifest": "frame/frame_manifest.json",
+  "signoffs": {
+    "gpt": "APPROVED FOR FREEZE (2026-09-29): full v0.4 audit + targeted v0.5 audit; D6 final sign-off; subject to two housekeeping changes, applied in v1.0 (D4 sentence narrowed; D4/closure test script and output added to bundle).",
+    "eric": "Decisions D1-D8 locked 2026-09-29 (14 section 15)."
+  },
+  "audit_chain": [
+    "_audit_copies/14_Heldout_Family_Protocol_v0.4.md (sha256 ba72e61a...dfeb)",
+    "_audit_copies/FREEZE_BUNDLE_preliminary_v0.5.json (sha256 de2c4dd1...944f)",
+    "_audit_copies/14_v0.5_changed_sections.md"
+  ],
+  "rule": "No candidate is screened, retrieved, embedded, featurized or scored before this record exists; changes after freeze only via dated amendments in 14 section 17.",
+  "original_freeze": {
+    "freeze_timestamp": "2026-09-29T18:50:16-04:00",
+    "protocol_sha256": "2d613cb28cd9f837d68671bbb2af42c409a5497ddbf11007196f71e31651b3bb",
+    "bundle_file": "FREEZE_BUNDLE_final.json",
+    "bundle_file_sha256": "1317c6b2063219ac5a88d8a74c00af95062925eb4d28c97caa485c98d9cd471a",
+    "bundle_sha256": "731788168b7b768d74c1c9404d93da54254b3d612ebdcb2ccfa987360d271d75",
+    "bundle_items": 33
+  },
+  "amendments": [
+    {
+      "id": "A-1",
+      "timestamp": "2026-09-29T18:54:35-04:00",
+      "type": "technical failure fix (14 section 7 rule)",
+      "section": "14 section 17 A-1",
+      "summary": "filename extension derived from last URL path segment (1-5 lowercase alnum) else 'img'; filename-only; no rule/outcome effect",
+      "changed_bundle_items": [
+        "14_Heldout_Family_Protocol.md",
+        "heldout/screen_and_retrieve.py"
+      ],
+      "aborted_run_artifacts": "out/_aborted_run1_2026-09-29/",
+      "before_any_outcome": true
+    }
+  ]
+}

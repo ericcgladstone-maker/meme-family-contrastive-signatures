@@ -1,0 +1,841 @@
+{
+  "H": {
+    "n_families": 60,
+    "means": {
+      "contrastive": 0.9484236248126873,
+      "logistic": 0.9831001189782438,
+      "recurrence": 0.8998678831585081,
+      "clip_centroid": 0.9503497124403374,
+      "sparse_centroid": 0.9212431710650459,
+      "sparse_knn": 0.9182260083666335,
+      "surf_composite": 0.7792833988927739,
+      "oracle_surface": 0.8252690977425351,
+      "fused_centroid": 0.9539467733655234
+    },
+    "rq1": {
+      "recurrence": {
+        "mean": 0.04855574165417916,
+        "ci95": [
+          0.03209157118055556,
+          0.06669428175990673
+        ],
+        "share_gt_0p02": 0.5166666666666667,
+        "n": 60
+      },
+      "clip_centroid": {
+        "mean": -0.0019260876276501063,
+        "ci95": [
+          -0.012993790111797915,
+          0.008172567562645703
+        ],
+        "share_gt_0p02": 0.26666666666666666,
+        "n": 60
+      },
+      "sparse_centroid": {
+        "mean": 0.02718045374764126,
+        "ci95": [
+          0.015417711819430606,
+          0.038863395172535835
+        ],
+        "share_gt_0p02": 0.4,
+        "n": 60
+      },
+      "sparse_knn": {
+        "mean": 0.03019761644605395,
+        "ci95": [
+          0.016065187091554266,
+          0.044329350423881676
+        ],
+        "share_gt_0p02": 0.43333333333333335,
+        "n": 60
+      },
+      "surf_composite": {
+        "mean": 0.16914022591991343,
+        "ci95": [
+          0.1091057453874251,
+          0.23092223604520468
+        ],
+        "share_gt_0p02": 0.6,
+        "n": 60
+      },
+      "oracle_surface": {
+        "mean": 0.12315452707015209,
+        "ci95": [
+          0.07714079835529053,
+          0.16993202024537962
+        ],
+        "share_gt_0p02": 0.5833333333333334,
+        "n": 60
+      },
+      "fused_centroid": {
+        "mean": -0.0055231485528360455,
+        "ci95": [
+          -0.020891923636259555,
+          0.00998688220199938
+        ],
+        "share_gt_0p02": 0.26666666666666666,
+        "n": 60
+      }
+    },
+    "classifier_minus_contrastive": {
+      "mean": 0.03467649416555667,
+      "ci95": [
+        0.024217220327415637,
+        0.046243490949155024
+      ],
+      "share_gt_0p02": 0.4666666666666667,
+      "n": 60
+    },
+    "rq2_laion_familylevel": {
+      "mean": 0.07330159423909423,
+      "ci95": [
+        0.04101283337611462,
+        0.10825855582496204
+      ],
+      "share_gt_0p02": 0.55,
+      "n": 60
+    },
+    "phash_decoys_descriptive": {
+      "mean": -0.007857131294631274,
+      "ci95": [
+        -0.023467330557174315,
+        0.00654978167087542
+      ],
+      "share_gt_0p02": 0.25,
+      "n": 60
+    }
+  },
+  "C": {
+    "n_families": 20,
+    "means": {
+      "contrastive": 0.9267475847069597,
+      "logistic": 0.9813937541625041,
+      "recurrence": 0.8639371576340326,
+      "clip_centroid": 0.9460127383033633,
+      "sparse_centroid": 0.9076619651182153,
+      "sparse_knn": 0.9010120150682651,
+      "surf_composite": 0.778345850503663,
+      "oracle_surface": 0.7897317651098901,
+      "fused_centroid": 0.9644071855228104
+    },
+    "rq1": {
+      "recurrence": {
+        "mean": 0.06281042707292706,
+        "ci95": [
+          0.021910722402597418,
+          0.1053889107767232
+        ],
+        "share_gt_0p02": 0.6,
+        "n": 20
+      },
+      "clip_centroid": {
+        "mean": -0.0192651535964036,
+        "ci95": [
+          -0.04408507541937229,
+          0.0033107920725108093
+        ],
+        "share_gt_0p02": 0.15,
+        "n": 20
+      },
+      "sparse_centroid": {
+        "mean": 0.019085619588744534,
+        "ci95": [
+          -0.0100071834415585,
+          0.04858178199404754
+        ],
+        "share_gt_0p02": 0.45,
+        "n": 20
+      },
+      "sparse_knn": {
+        "mean": 0.02573556963869462,
+        "ci95": [
+          -0.015563276515151537,
+          0.0676887875145687
+        ],
+        "share_gt_0p02": 0.55,
+        "n": 20
+      },
+      "surf_composite": {
+        "mean": 0.14840173420329666,
+        "ci95": [
+          0.06732454135708041,
+          0.23299886686230425
+        ],
+        "share_gt_0p02": 0.65,
+        "n": 20
+      },
+      "oracle_surface": {
+        "mean": 0.13701581959706954,
+        "ci95": [
+          0.07841578944493001,
+          0.1980648420719904
+        ],
+        "share_gt_0p02": 0.8,
+        "n": 20
+      },
+      "fused_centroid": {
+        "mean": -0.03765960081585086,
+        "ci95": [
+          -0.06964736942744765,
+          -0.011153867096445332
+        ],
+        "share_gt_0p02": 0.1,
+        "n": 20
+      }
+    },
+    "classifier_minus_contrastive": {
+      "mean": 0.05464616945554448,
+      "ci95": [
+        0.02858755741654183,
+        0.08794019040854978
+      ],
+      "share_gt_0p02": 0.7,
+      "n": 20
+    },
+    "rq2_laion_familylevel": {
+      "mean": 0.04824501887001886,
+      "ci95": [
+        -0.024532354797979772,
+        0.12587583727036844
+      ],
+      "share_gt_0p02": 0.45,
+      "n": 20
+    },
+    "phash_decoys_descriptive": {
+      "mean": -0.00889181998557001,
+      "ci95": [
+        -0.04158027779512159,
+        0.018498872655122612
+      ],
+      "share_gt_0p02": 0.25,
+      "n": 20
+    }
+  },
+  "DEV": {
+    "n_families": 30,
+    "means": {
+      "contrastive": 0.9010067325118657,
+      "logistic": 0.9603158169535579,
+      "recurrence": 0.8071385611881924,
+      "clip_centroid": 0.8642751545418432,
+      "sparse_centroid": 0.8350448580344714,
+      "sparse_knn": 0.8317575092568699,
+      "surf_composite": 0.7696641886069316,
+      "oracle_surface": 0.8050640693792243,
+      "fused_centroid": 0.9091820572775117
+    },
+    "rq1": {
+      "recurrence": {
+        "mean": 0.0938681713236734,
+        "ci95": [
+          0.06015336072258922,
+          0.13094340382468853
+        ],
+        "share_gt_0p02": 0.7,
+        "n": 30
+      },
+      "clip_centroid": {
+        "mean": 0.036731577970022584,
+        "ci95": [
+          0.00920310157031367,
+          0.0657888592133719
+        ],
+        "share_gt_0p02": 0.6,
+        "n": 30
+      },
+      "sparse_centroid": {
+        "mean": 0.06596187447739439,
+        "ci95": [
+          0.04371196421973899,
+          0.08945975039403241
+        ],
+        "share_gt_0p02": 0.8333333333333334,
+        "n": 30
+      },
+      "sparse_knn": {
+        "mean": 0.06924922325499588,
+        "ci95": [
+          0.04268284253698205,
+          0.09640770689284581
+        ],
+        "share_gt_0p02": 0.8,
+        "n": 30
+      },
+      "surf_composite": {
+        "mean": 0.1313425439049342,
+        "ci95": [
+          0.07336340809048086,
+          0.1904504414761216
+        ],
+        "share_gt_0p02": 0.7666666666666667,
+        "n": 30
+      },
+      "oracle_surface": {
+        "mean": 0.09594266313264142,
+        "ci95": [
+          0.04641486694433393,
+          0.14673857720437422
+        ],
+        "share_gt_0p02": 0.6666666666666666,
+        "n": 30
+      },
+      "fused_centroid": {
+        "mean": -0.008175324765645798,
+        "ci95": [
+          -0.032545847134633495,
+          0.014782387707903693
+        ],
+        "share_gt_0p02": 0.3,
+        "n": 30
+      }
+    },
+    "classifier_minus_contrastive": {
+      "mean": 0.05930908444169215,
+      "ci95": [
+        0.03936076856882989,
+        0.08188449892916824
+      ],
+      "share_gt_0p02": 0.7333333333333333,
+      "n": 30
+    },
+    "rq2_laion_familylevel": {
+      "mean": 0.14972030338174278,
+      "ci95": [
+        0.09702837165788107,
+        0.20163541828345727
+      ],
+      "share_gt_0p02": 0.8666666666666667,
+      "n": 30
+    },
+    "phash_decoys_descriptive": {
+      "mean": 0.033879719100340995,
+      "ci95": [
+        0.006619452646870504,
+        0.06371427896230193
+      ],
+      "share_gt_0p02": 0.5,
+      "n": 30
+    }
+  },
+  "ALL": {
+    "n_families": 110,
+    "means": {
+      "contrastive": 0.93155064689324,
+      "logistic": 0.9765759702777406,
+      "recurrence": 0.8680452088894264,
+      "clip_centroid": 0.9260862922612981,
+      "sparse_centroid": 0.8952652300663745,
+      "sparse_knn": 0.8915138734642674,
+      "surf_composite": 0.7764895145622511,
+      "oracle_surface": 0.8132973022556967,
+      "fused_centroid": 0.9436401075519362
+    },
+    "rq1": {
+      "recurrence": {
+        "mean": 0.06350543800381357,
+        "ci95": [
+          0.047960147842965595,
+          0.07925344541125325
+        ],
+        "share_gt_0p02": 0.5818181818181818,
+        "n": 110
+      },
+      "clip_centroid": {
+        "mean": 0.005464354631941812,
+        "ci95": [
+          -0.0058400768684063456,
+          0.016525788784201207
+        ],
+        "share_gt_0p02": 0.33636363636363636,
+        "n": 110
+      },
+      "sparse_centroid": {
+        "mean": 0.03628541682686543,
+        "ci95": [
+          0.025293731720620775,
+          0.04719723166363582
+        ],
+        "share_gt_0p02": 0.5272727272727272,
+        "n": 110
+      },
+      "sparse_knn": {
+        "mean": 0.04003677342897279,
+        "ci95": [
+          0.02655904203679999,
+          0.05348615403676949
+        ],
+        "share_gt_0p02": 0.5545454545454546,
+        "n": 110
+      },
+      "surf_composite": {
+        "mean": 0.15506113233098875,
+        "ci95": [
+          0.11571603111445938,
+          0.19578650208850967
+        ],
+        "share_gt_0p02": 0.6545454545454545,
+        "n": 110
+      },
+      "oracle_surface": {
+        "mean": 0.11825334463754328,
+        "ci95": [
+          0.08783696621296155,
+          0.14941204094097338
+        ],
+        "share_gt_0p02": 0.6454545454545455,
+        "n": 110
+      },
+      "fused_centroid": {
+        "mean": -0.012089460658695945,
+        "ci95": [
+          -0.024271117429320706,
+          -0.00020207498216263974
+        ],
+        "share_gt_0p02": 0.24545454545454545,
+        "n": 110
+      }
+    },
+    "classifier_minus_contrastive": {
+      "mean": 0.04502532338450049,
+      "ci95": [
+        0.03562266520113292,
+        0.055920829714025094
+      ],
+      "share_gt_0p02": 0.5818181818181818,
+      "n": 110
+    },
+    "rq2_laion_familylevel": {
+      "mean": 0.08958731939271194,
+      "ci95": [
+        0.06179426060302631,
+        0.11694447153374193
+      ],
+      "share_gt_0p02": 0.6181818181818182,
+      "n": 110
+    },
+    "phash_decoys_descriptive": {
+      "mean": 0.003337520869281392,
+      "ci95": [
+        -0.010338970473957166,
+        0.016482230974213054
+      ],
+      "share_gt_0p02": 0.3181818181818182,
+      "n": 110
+    }
+  },
+  "verdicts_H": {
+    "L1": "L1 weakened baseline-by-baseline: advantage (interval excludes 0) over recurrence, sparse_centroid, sparse_knn, surf_composite, oracle_surface; no clear contrastive advantage detected over clip_centroid, fused_centroid",
+    "L2_laion": "validated",
+    "baseline_ci_excludes_zero": {
+      "recurrence": true,
+      "clip_centroid": false,
+      "sparse_centroid": true,
+      "sparse_knn": true,
+      "surf_composite": true,
+      "oracle_surface": true,
+      "fused_centroid": false
+    },
+    "classifier_note": "expected logistic > contrastive; interval excludes 0",
+    "unsupervised_excluding_fused": [
+      "recurrence",
+      "clip_centroid",
+      "sparse_centroid",
+      "sparse_knn",
+      "surf_composite",
+      "oracle_surface"
+    ]
+  },
+  "verdicts_C": {
+    "L1": "L1 becomes 'compact and inspectable, without a clear recovery advantage over the simple same-representation and whole-image baselines'",
+    "L2_laion": "weakened to suggestive",
+    "baseline_ci_excludes_zero": {
+      "recurrence": true,
+      "clip_centroid": false,
+      "sparse_centroid": false,
+      "sparse_knn": false,
+      "surf_composite": true,
+      "oracle_surface": true,
+      "fused_centroid": false
+    },
+    "classifier_note": "expected logistic > contrastive; interval excludes 0",
+    "unsupervised_excluding_fused": [
+      "recurrence",
+      "clip_centroid",
+      "sparse_centroid",
+      "sparse_knn",
+      "surf_composite",
+      "oracle_surface"
+    ]
+  },
+  "size_bands": {
+    "10-14": {
+      "n": 38,
+      "contrastive-recurrence": 0.049846516422174324,
+      "contrastive-clip_centroid": -0.0027347477084318944,
+      "contrastive-sparse_centroid": 0.023433334209650013,
+      "contrastive-sparse_knn": 0.025213696391327988,
+      "contrastive-surf_composite": 0.13805181769984404,
+      "contrastive-oracle_surface": 0.10298751358290832,
+      "contrastive-fused_centroid": -0.008479925775978395
+    },
+    "15-19": {
+      "n": 49,
+      "contrastive-recurrence": 0.06258416985215137,
+      "contrastive-clip_centroid": -0.005393098248071148,
+      "contrastive-sparse_centroid": 0.03195675441229121,
+      "contrastive-sparse_knn": 0.03592039688682489,
+      "contrastive-surf_composite": 0.16714762527818142,
+      "contrastive-oracle_surface": 0.13123056196162672,
+      "contrastive-fused_centroid": -0.019049421742381178
+    },
+    ">=20": {
+      "n": 23,
+      "contrastive-recurrence": 0.08803505363571525,
+      "contrastive-clip_centroid": 0.04214179289519554,
+      "contrastive-sparse_centroid": 0.06674122542548817,
+      "contrastive-sparse_knn": 0.0732967463853097,
+      "contrastive-surf_composite": 0.15741399326886094,
+      "contrastive-oracle_surface": 0.11582803729824054,
+      "contrastive-fused_centroid": -0.0032252968518564
+    }
+  },
+  "size_regression": {
+    "recurrence": {
+      "intercept_DEV": 0.04520945649145533,
+      "H_minus_DEV": -0.03798743968419884,
+      "C_minus_DEV": -0.022389049328675668,
+      "log_n": 0.01566267259853297
+    },
+    "clip_centroid": {
+      "intercept_DEV": 0.03565051217945984,
+      "H_minus_DEV": -0.0384949240185614,
+      "C_minus_DEV": -0.05580413647711099,
+      "log_n": 0.00034798246508243734
+    },
+    "sparse_centroid": {
+      "intercept_DEV": 0.08706014113980254,
+      "H_minus_DEV": -0.041957513492213425,
+      "C_minus_DEV": -0.05063497391177976,
+      "log_n": -0.0067912858831002095
+    },
+    "sparse_knn": {
+      "intercept_DEV": -0.034470427663306435,
+      "H_minus_DEV": -0.023437848680010566,
+      "C_minus_DEV": -0.025035688994039903,
+      "log_n": 0.03338614552334746
+    },
+    "surf_composite": {
+      "intercept_DEV": -0.46383584807788664,
+      "H_minus_DEV": 0.12739470026281263,
+      "C_minus_DEV": 0.12309199289288375,
+      "log_n": 0.19158098037508925
+    },
+    "oracle_surface": {
+      "intercept_DEV": -0.5294094959334911,
+      "H_minus_DEV": 0.12135118344558096,
+      "C_minus_DEV": 0.15248150550313247,
+      "log_n": 0.2012935639589324
+    },
+    "fused_centroid": {
+      "intercept_DEV": -0.09264843666290566,
+      "H_minus_DEV": 0.015368597121330471,
+      "C_minus_DEV": -0.014435139658496812,
+      "log_n": 0.02719090916371638
+    }
+  },
+  "H_capped10": {
+    "n_families": 60,
+    "means": {
+      "contrastive": 0.9516416666666667,
+      "logistic": 0.9815333333333334,
+      "recurrence": 0.8948125000000001,
+      "clip_centroid": 0.9507083333333333,
+      "sparse_centroid": 0.9219916666666667,
+      "sparse_knn": 0.917225,
+      "surf_composite": 0.7744333333333332,
+      "oracle_surface": 0.8261208333333333,
+      "fused_centroid": 0.9544916666666666
+    },
+    "rq1": {
+      "recurrence": {
+        "mean": 0.05682916666666668,
+        "ci95": [
+          0.037873333333333335,
+          0.07743156249999995
+        ],
+        "share_gt_0p02": 0.5333333333333333,
+        "n": 60
+      },
+      "clip_centroid": {
+        "mean": 0.0009333333333333471,
+        "ci95": [
+          -0.0122417708333333,
+          0.012755104166666666
+        ],
+        "share_gt_0p02": 0.2833333333333333,
+        "n": 60
+      },
+      "sparse_centroid": {
+        "mean": 0.02965,
+        "ci95": [
+          0.015431666666666661,
+          0.04423343750000001
+        ],
+        "share_gt_0p02": 0.4166666666666667,
+        "n": 60
+      },
+      "sparse_knn": {
+        "mean": 0.03441666666666667,
+        "ci95": [
+          0.01592906250000001,
+          0.0537215625
+        ],
+        "share_gt_0p02": 0.4,
+        "n": 60
+      },
+      "surf_composite": {
+        "mean": 0.17720833333333333,
+        "ci95": [
+          0.11344489583333335,
+          0.2430817708333333
+        ],
+        "share_gt_0p02": 0.6,
+        "n": 60
+      },
+      "oracle_surface": {
+        "mean": 0.12552083333333333,
+        "ci95": [
+          0.07741510416666668,
+          0.17365156249999994
+        ],
+        "share_gt_0p02": 0.6166666666666667,
+        "n": 60
+      },
+      "fused_centroid": {
+        "mean": -0.0028500000000000005,
+        "ci95": [
+          -0.023338020833333334,
+          0.018442812499999985
+        ],
+        "share_gt_0p02": 0.2833333333333333,
+        "n": 60
+      }
+    },
+    "classifier_minus_contrastive": {
+      "mean": 0.02989166666666667,
+      "ci95": [
+        0.018445000000000013,
+        0.043588229166666666
+      ],
+      "share_gt_0p02": 0.4166666666666667,
+      "n": 60
+    },
+    "rq2_laion_familylevel": {
+      "mean": 0.05611111111111112,
+      "ci95": [
+        0.021385416666666667,
+        0.09180555555555554
+      ],
+      "share_gt_0p02": 0.5166666666666667,
+      "n": 60
+    },
+    "phash_decoys_descriptive": {
+      "mean": 0.0005555555555555406,
+      "ci95": [
+        -0.01597222222222223,
+        0.01638888888888884
+      ],
+      "share_gt_0p02": 0.35,
+      "n": 60
+    }
+  },
+  "verdicts_H_capped10": {
+    "L1": "L1 weakened baseline-by-baseline: advantage (interval excludes 0) over recurrence, sparse_centroid, sparse_knn, surf_composite, oracle_surface; no clear contrastive advantage detected over clip_centroid, fused_centroid",
+    "L2_laion": "validated",
+    "baseline_ci_excludes_zero": {
+      "recurrence": true,
+      "clip_centroid": false,
+      "sparse_centroid": true,
+      "sparse_knn": true,
+      "surf_composite": true,
+      "oracle_surface": true,
+      "fused_centroid": false
+    },
+    "classifier_note": "expected logistic > contrastive; interval excludes 0",
+    "unsupervised_excluding_fused": [
+      "recurrence",
+      "clip_centroid",
+      "sparse_centroid",
+      "sparse_knn",
+      "surf_composite",
+      "oracle_surface"
+    ]
+  },
+  "H_capped15": {
+    "n_families": 60,
+    "means": {
+      "contrastive": 0.9490650197025198,
+      "logistic": 0.9823478091353091,
+      "recurrence": 0.8982589584027085,
+      "clip_centroid": 0.9511770965145965,
+      "sparse_centroid": 0.9219513542013541,
+      "sparse_knn": 0.91632944000444,
+      "surf_composite": 0.7768846570096569,
+      "oracle_surface": 0.8258070131257631,
+      "fused_centroid": 0.954098631923632
+    },
+    "rq1": {
+      "recurrence": {
+        "mean": 0.050806061299811314,
+        "ci95": [
+          0.033983964247558,
+          0.06972469700438454
+        ],
+        "share_gt_0p02": 0.5333333333333333,
+        "n": 60
+      },
+      "clip_centroid": {
+        "mean": -0.0021120768120767965,
+        "ci95": [
+          -0.012826621191308694,
+          0.0077736841630591715
+        ],
+        "share_gt_0p02": 0.26666666666666666,
+        "n": 60
+      },
+      "sparse_centroid": {
+        "mean": 0.027113665501165517,
+        "ci95": [
+          0.01556102220695972,
+          0.03906545104201357
+        ],
+        "share_gt_0p02": 0.4,
+        "n": 60
+      },
+      "sparse_knn": {
+        "mean": 0.03273557969807971,
+        "ci95": [
+          0.01889058677433677,
+          0.04686102612665114
+        ],
+        "share_gt_0p02": 0.5166666666666667,
+        "n": 60
+      },
+      "surf_composite": {
+        "mean": 0.17218036269286272,
+        "ci95": [
+          0.11149230047730048,
+          0.23438079701548448
+        ],
+        "share_gt_0p02": 0.6,
+        "n": 60
+      },
+      "oracle_surface": {
+        "mean": 0.12325800657675658,
+        "ci95": [
+          0.07758300763472639,
+          0.1701259189421689
+        ],
+        "share_gt_0p02": 0.5666666666666667,
+        "n": 60
+      },
+      "fused_centroid": {
+        "mean": -0.005033612221112201,
+        "ci95": [
+          -0.02010088904151403,
+          0.010162176850926838
+        ],
+        "share_gt_0p02": 0.23333333333333334,
+        "n": 60
+      }
+    },
+    "classifier_minus_contrastive": {
+      "mean": 0.03328278943278946,
+      "ci95": [
+        0.02374378839910091,
+        0.0437517696192696
+      ],
+      "share_gt_0p02": 0.5,
+      "n": 60
+    },
+    "rq2_laion_familylevel": {
+      "mean": 0.06836513024013023,
+      "ci95": [
+        0.037378537550412545,
+        0.10125987611925108
+      ],
+      "share_gt_0p02": 0.5833333333333334,
+      "n": 60
+    },
+    "phash_decoys_descriptive": {
+      "mean": -0.012497409997409975,
+      "ci95": [
+        -0.02707632529507527,
+        0.0005017927674177732
+      ],
+      "share_gt_0p02": 0.25,
+      "n": 60
+    }
+  },
+  "verdicts_H_capped15": {
+    "L1": "L1 weakened baseline-by-baseline: advantage (interval excludes 0) over recurrence, sparse_centroid, sparse_knn, surf_composite, oracle_surface; no clear contrastive advantage detected over clip_centroid, fused_centroid",
+    "L2_laion": "validated",
+    "baseline_ci_excludes_zero": {
+      "recurrence": true,
+      "clip_centroid": false,
+      "sparse_centroid": true,
+      "sparse_knn": true,
+      "surf_composite": true,
+      "oracle_surface": true,
+      "fused_centroid": false
+    },
+    "classifier_note": "expected logistic > contrastive; interval excludes 0",
+    "unsupervised_excluding_fused": [
+      "recurrence",
+      "clip_centroid",
+      "sparse_centroid",
+      "sparse_knn",
+      "surf_composite",
+      "oracle_surface"
+    ]
+  },
+  "H_seed_sweep_ranges": {
+    "recurrence": [
+      0.04395179733460983,
+      0.0487244233197358
+    ],
+    "clip_centroid": [
+      -0.0020955374486624377,
+      -5.324501887000917e-05
+    ],
+    "sparse_centroid": [
+      0.02610903298090796,
+      0.02822702991452992
+    ],
+    "sparse_knn": [
+      0.028951724317349332,
+      0.03190730692918192
+    ],
+    "surf_composite": [
+      0.16624157838689085,
+      0.1711498659326784
+    ],
+    "oracle_surface": [
+      0.12118655233655232,
+      0.12502337731712734
+    ],
+    "fused_centroid": [
+      -0.00709105304417801,
+      -0.004017855408480434
+    ]
+  },
+  "H_rq2_laion_foldlocal": {
+    "mean": 0.07196568477818478,
+    "ci95": [
+      0.039797974161255405,
+      0.10689567897380395
+    ],
+    "share_gt_0p02": 0.5333333333333333,
+    "n": 60
+  }
+}

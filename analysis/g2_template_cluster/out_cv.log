@@ -1,0 +1,13 @@
+[validation] {'random5_seed0': (0.0461, np.float64(0.0826)), 'bestfit_family': (0.0725, np.float64(0.0945)), 'community_gkf7': (0.0523, np.float64(0.0701))}
+[random5] dR2=+0.0461 dAUC=+0.0826  R2_D=0.107 R2_F=0.153
+[bestfit_family] dR2=+0.0725 dAUC=+0.0945  R2_D=0.057 R2_F=0.129
+[community_gkf7_eq_LOCO] dR2=+0.0523 dAUC=+0.0701  R2_D=-0.018 R2_F=0.035
+[template_cc10_as_planned] dR2=+0.0465 dAUC=+0.0824  R2_D=0.106 R2_F=0.152
+[template_cc6] dR2=+0.0453 dAUC=+0.0811  R2_D=0.107 R2_F=0.152
+[template_cc8] dR2=+0.0441 dAUC=+0.0792  R2_D=0.105 R2_F=0.149
+[template_greedy12] dR2=+0.0457 dAUC=+0.0791  R2_D=0.105 R2_F=0.151
+[repeat random5] dR2 median +0.0459 range [+0.0445, +0.0469]
+[repeat bestfit_family] dR2 median +0.0724 range [+0.0719, +0.0727]
+[repeat template_cc10_as_planned] dR2 median +0.0459 range [+0.0450, +0.0465]
+    boot[cc10_as_planned] 0
+    boot[cc10_as_planned] 250

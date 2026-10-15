@@ -1,0 +1,90 @@
+{
+ "verdicts_H": {
+  "L1": "L1 weakened baseline-by-baseline: advantage (interval excludes 0) over recurrence, sparse_centroid, sparse_knn, surf_composite, oracle_surface; no clear contrastive advantage detected over clip_centroid, fused_centroid",
+  "L2_laion": "validated",
+  "baseline_ci_excludes_zero": {
+   "recurrence": true,
+   "clip_centroid": false,
+   "sparse_centroid": true,
+   "sparse_knn": true,
+   "surf_composite": true,
+   "oracle_surface": true,
+   "fused_centroid": false
+  },
+  "classifier_note": "expected logistic > contrastive; interval excludes 0",
+  "unsupervised_excluding_fused": [
+   "recurrence",
+   "clip_centroid",
+   "sparse_centroid",
+   "sparse_knn",
+   "surf_composite",
+   "oracle_surface"
+  ]
+ },
+ "verdicts_C": {
+  "L1": "L1 becomes 'compact and inspectable, without a clear recovery advantage over the simple same-representation and whole-image baselines'",
+  "L2_laion": "weakened to suggestive",
+  "baseline_ci_excludes_zero": {
+   "recurrence": true,
+   "clip_centroid": false,
+   "sparse_centroid": false,
+   "sparse_knn": false,
+   "surf_composite": true,
+   "oracle_surface": true,
+   "fused_centroid": false
+  },
+  "classifier_note": "expected logistic > contrastive; interval excludes 0",
+  "unsupervised_excluding_fused": [
+   "recurrence",
+   "clip_centroid",
+   "sparse_centroid",
+   "sparse_knn",
+   "surf_composite",
+   "oracle_surface"
+  ]
+ },
+ "verdicts_H_capped10": {
+  "L1": "L1 weakened baseline-by-baseline: advantage (interval excludes 0) over recurrence, sparse_centroid, sparse_knn, surf_composite, oracle_surface; no clear contrastive advantage detected over clip_centroid, fused_centroid",
+  "L2_laion": "validated",
+  "baseline_ci_excludes_zero": {
+   "recurrence": true,
+   "clip_centroid": false,
+   "sparse_centroid": true,
+   "sparse_knn": true,
+   "surf_composite": true,
+   "oracle_surface": true,
+   "fused_centroid": false
+  },
+  "classifier_note": "expected logistic > contrastive; interval excludes 0",
+  "unsupervised_excluding_fused": [
+   "recurrence",
+   "clip_centroid",
+   "sparse_centroid",
+   "sparse_knn",
+   "surf_composite",
+   "oracle_surface"
+  ]
+ },
+ "verdicts_H_capped15": {
+  "L1": "L1 weakened baseline-by-baseline: advantage (interval excludes 0) over recurrence, sparse_centroid, sparse_knn, surf_composite, oracle_surface; no clear contrastive advantage detected over clip_centroid, fused_centroid",
+  "L2_laion": "validated",
+  "baseline_ci_excludes_zero": {
+   "recurrence": true,
+   "clip_centroid": false,
+   "sparse_centroid": true,
+   "sparse_knn": true,
+   "surf_composite": true,
+   "oracle_surface": true,
+   "fused_centroid": false
+  },
+  "classifier_note": "expected logistic > contrastive; interval excludes 0",
+  "unsupervised_excluding_fused": [
+   "recurrence",
+   "clip_centroid",
+   "sparse_centroid",
+   "sparse_knn",
+   "surf_composite",
+   "oracle_surface"
+  ]
+ }
+}

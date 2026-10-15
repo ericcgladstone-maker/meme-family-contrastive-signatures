@@ -1,0 +1,20 @@
+{
+  "record": "M12 exclusion sensitivity freeze (09 F-62)",
+  "created": "2026-10-01T10:25:27-04:00",
+  "hashes": {
+    "analysis/m12_overlap/SPEC_exclusion.md": "7dded5619c8a1f7b5246241ddb799edb779d3f7945aad9359750eab356cd271f",
+    "analysis/m12_overlap/m12_exclusion.py": "fb824b2125cd1a32bdbe6f1fbfafcd72cb2f5e265d56b573871f82e036edb54b",
+    "analysis/m12_overlap/out/m12_overlap.json": "5313687bc8c991c7a2499ad6ac437201409a8972eed1431ca792150ca9032d0d",
+    "analysis/g2_template_cluster/02_grouped_cv.py": "32941b0c2f9d9e5e061198e52be3a36f829f88dd9b1c4e0f106c0173583105bf",
+    "analysis/g1_full_sample/03_decomposition.py": "b135b92da52e531e189c3fbb8280f624232ddac816035c65f65facebdd02725c",
+    "analysis/repair/01_bootstrap_samelabel.py": "d05ac83b7061b8a4944ddd2d1cc6c947dad62f1ad9e12e74d9dc4e0b37c13176",
+    "analysis/common.py": "4077d8ea9a9e285188485aa7125d3f13f73f674d4cf51b8d119a77f9d277b047",
+    "analysis/g2_template_cluster/out/clusters.csv": "3e69519b41042e65d5969e537b41b7335a01b5cab773180e8cc307236c919e3d",
+    "analysis/g1_full_sample/out/scores_all.csv": "f474767a8f9f7df58ff905d00d4c4d97edc399b4af469838f38300349229fb4b",
+    "analysis/g2_template_cluster/out/g2_results.json": "c3607ac67e224db031fabd4aa52499e9f679789ca851ff5ffe46737987c92e02",
+    "analysis/g1_full_sample/out/g1_results.json": "3c84d2e07b29cba0409cf35ef5e424e7b23ab3fc129d35dc34b8c0a9a31781d0",
+    "analysis/repair/out/bootstrap_samelabel.json": "7de7a2437c97d6caf83168d4b78a4b3645891a5a5f74812573b89c0986d81e9e",
+    "../build/first_results/ph4_q2_horsepower/q2_denom_outcomes.csv": "ea67d0bdcd7b75c07dc8d5e58ed067e0f8cc487899cfdbe10da05f4809c777de"
+  },
+  "note": "Outcomes file added before any run (found missing on pre-run review)."
+}

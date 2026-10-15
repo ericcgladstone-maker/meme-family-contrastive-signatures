@@ -1,0 +1,49 @@
+{
+  "T1_ABC_shared_removed_from_all": true,
+  "T1_v04_mutable_logic_would_keep_x_in_C": true,
+  "T2_order_invariant_over_120_orders": true,
+  "T2_statuses": {
+    "A": "analyzable",
+    "B": "analyzable",
+    "C": "analyzable",
+    "D": "analyzable",
+    "E": "analyzable"
+  },
+  "T3_label_conflict_both": true,
+  "T4_hamming6_related": true,
+  "T4_hamming7_not_related": true,
+  "T5_final_statuses": {
+    "h1": [
+      "H",
+      "too_small"
+    ],
+    "h2": [
+      "H",
+      "analyzable"
+    ],
+    "h3": [
+      "H",
+      "analyzable"
+    ],
+    "c1": [
+      "C",
+      "too_small"
+    ],
+    "c2": [
+      "H",
+      "analyzable"
+    ],
+    "h4": [
+      "H",
+      "analyzable"
+    ],
+    "h5": [
+      "H",
+      "analyzable"
+    ]
+  },
+  "T5_h1_knocked_out_by_c1": true,
+  "T5_c2_reached_in_H_sequence_stays_H": true,
+  "T5_H_resumed_and_closed": true,
+  "ALL_PASSED": true
+}

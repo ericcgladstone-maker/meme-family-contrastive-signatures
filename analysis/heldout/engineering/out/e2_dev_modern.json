@@ -1,0 +1,16 @@
+{
+  "n": 680,
+  "siglip2_dim": 1152,
+  "dinov2_dim": 1024,
+  "finite": true,
+  "rerun_max_abs_diff_siglip2": 0.0,
+  "rerun_max_abs_diff_dinov2": 0.0,
+  "siglip2_norm_range": [
+    9.166116714477539,
+    19.47421646118164
+  ],
+  "dinov2_norm_range": [
+    39.80289840698242,
+    51.4815559387207
+  ]
+}

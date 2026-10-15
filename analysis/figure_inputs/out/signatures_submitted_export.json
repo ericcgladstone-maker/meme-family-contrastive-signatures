@@ -1,0 +1,1626 @@
+{
+ "source": "SSCR Submission/_Working/07_Analysis_Audit/interpretability_signatures.csv",
+ "source_sha256": "ad9bdf8440424d055bc0e2373f32f6d8bb9778e35155511fc0841882d594a547",
+ "families": {
+  "american_chopper_argument": {
+   "n_members": 18,
+   "feature_indices": [
+    4915,
+    101,
+    5519,
+    3790,
+    2881,
+    4125,
+    3825,
+    717,
+    2247,
+    586,
+    1812,
+    5816,
+    3716,
+    1610,
+    2189
+   ],
+   "weights": [
+    3.104,
+    2.051,
+    1.775,
+    1.759,
+    1.759,
+    1.718,
+    1.528,
+    1.317,
+    1.242,
+    1.129,
+    1.12,
+    1.083,
+    1.051,
+    0.92,
+    0.907
+   ],
+   "top_member_exemplars": [
+    "pool_american_chopper_argument__kymv00010",
+    "pool_american_chopper_argument__kymv00006",
+    "pool_american_chopper_argument__kymv00020",
+    "pool_american_chopper_argument__kymv00040",
+    "pool_american_chopper_argument__kymv00018"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_woman_yelling_at_a_cat__kymv00004",
+    "pool_woman_yelling_at_a_cat__kymv00034",
+    "pool_mocking_spongebob__kymv00014",
+    "pool_two_buttons_daily_struggle__kymv00022",
+    "pool_mocking_spongebob__kymv00024"
+   ],
+   "top_nonmember_fit": [
+    0.876
+   ]
+  },
+  "coffin_dance": {
+   "n_members": 26,
+   "feature_indices": [
+    5709,
+    3441,
+    3899,
+    1938,
+    1963,
+    2348,
+    2325,
+    6029,
+    5465,
+    801,
+    2745,
+    4807,
+    821,
+    4457,
+    6027
+   ],
+   "weights": [
+    3.174,
+    2.899,
+    2.656,
+    2.185,
+    1.228,
+    1.213,
+    1.198,
+    1.184,
+    1.168,
+    1.161,
+    1.065,
+    1.006,
+    0.99,
+    0.955,
+    0.916
+   ],
+   "top_member_exemplars": [
+    "pool_coffin_dance__kymv00026",
+    "pool_coffin_dance__kymv00022",
+    "pool_coffin_dance__kymv00012",
+    "pool_coffin_dance__kymv00018",
+    "pool_coffin_dance__kymv00020"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00008",
+    "pool_roll_safe__kymv00014",
+    "pool_loss_is_this_loss__kymv00046",
+    "pool_loss_is_this_loss__kymv00015",
+    "pool_x_all_the_y__kymv00020"
+   ],
+   "top_nonmember_fit": [
+    0.65
+   ]
+  },
+  "disaster_girl": {
+   "n_members": 21,
+   "feature_indices": [
+    4244,
+    1235,
+    336,
+    4835,
+    5519,
+    1478,
+    2277,
+    2126,
+    5238,
+    1808,
+    6122,
+    2020,
+    3825,
+    5680,
+    4814
+   ],
+   "weights": [
+    4.485,
+    3.416,
+    2.344,
+    2.176,
+    1.41,
+    1.341,
+    1.131,
+    0.832,
+    0.824,
+    0.734,
+    0.652,
+    0.627,
+    0.626,
+    0.616,
+    0.615
+   ],
+   "top_member_exemplars": [
+    "pool_disaster_girl__kymv00020",
+    "pool_disaster_girl__kymv00007",
+    "pool_disaster_girl__kymv00015",
+    "pool_disaster_girl__kymv00027",
+    "pool_disaster_girl__kymv00034"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_this_is_fine__kymv00008",
+    "pool_this_is_fine__kymv00000",
+    "pool_hide_the_pain_harold__kymv00040",
+    "pool_this_is_fine__kymv00034",
+    "pool_this_is_fine__kymv00022"
+   ],
+   "top_nonmember_fit": [
+    0.814
+   ]
+  },
+  "distracted_boyfriend": {
+   "n_members": 20,
+   "feature_indices": [
+    1992,
+    5093,
+    5805,
+    2325,
+    3641,
+    4767,
+    3662,
+    88,
+    336,
+    3441,
+    5142,
+    5107,
+    3767,
+    1101,
+    4579
+   ],
+   "weights": [
+    2.67,
+    2.256,
+    1.681,
+    1.648,
+    1.526,
+    1.434,
+    1.232,
+    0.885,
+    0.853,
+    0.843,
+    0.817,
+    0.775,
+    0.689,
+    0.681,
+    0.673
+   ],
+   "top_member_exemplars": [
+    "pool_distracted_boyfriend__kymv00042",
+    "pool_distracted_boyfriend__kymv00037",
+    "pool_distracted_boyfriend__kymv00035",
+    "pool_distracted_boyfriend__kymv00046",
+    "pool_distracted_boyfriend__kymv00028"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_woman_yelling_at_a_cat__kymv00032",
+    "pool_disaster_girl__kymv00002",
+    "pool_woman_yelling_at_a_cat__kymv00018",
+    "pool_coffin_dance__kymv00004",
+    "pool_drake_hotline_bling_drakeposting__kymv00045"
+   ],
+   "top_nonmember_fit": [
+    0.871
+   ]
+  },
+  "doge_such_x_much_y_very_z": {
+   "n_members": 25,
+   "feature_indices": [
+    853,
+    5805,
+    5339,
+    3907,
+    5709,
+    5188,
+    2020,
+    3559,
+    4137,
+    119,
+    5776,
+    3194,
+    3119,
+    1157,
+    246
+   ],
+   "weights": [
+    5.983,
+    1.832,
+    1.195,
+    1.123,
+    1.064,
+    1.047,
+    1.017,
+    0.974,
+    0.968,
+    0.895,
+    0.862,
+    0.813,
+    0.735,
+    0.695,
+    0.686
+   ],
+   "top_member_exemplars": [
+    "pool_doge_such_x_much_y_very_z__kymv00026",
+    "pool_doge_such_x_much_y_very_z__kymv00014",
+    "pool_doge_such_x_much_y_very_z__kymv00012",
+    "pool_doge_such_x_much_y_very_z__kymv00006",
+    "pool_doge_such_x_much_y_very_z__kymv00045"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_this_is_fine__kymv00008",
+    "pool_nobody_literally_no_one__kymv00006",
+    "pool_this_is_fine__kymv00032",
+    "pool_expanding_brain_galaxy_brain__kymv00004",
+    "pool_drake_hotline_bling_drakeposting__kymv00008"
+   ],
+   "top_nonmember_fit": [
+    0.866
+   ]
+  },
+  "drake_hotline_bling_drakeposting": {
+   "n_members": 19,
+   "feature_indices": [
+    717,
+    5465,
+    4915,
+    101,
+    1838,
+    3790,
+    2508,
+    4743,
+    4364,
+    2392,
+    4739,
+    901,
+    2189,
+    2839,
+    4125
+   ],
+   "weights": [
+    2.167,
+    2.045,
+    2.034,
+    1.355,
+    1.178,
+    0.935,
+    0.91,
+    0.781,
+    0.715,
+    0.626,
+    0.586,
+    0.579,
+    0.574,
+    0.542,
+    0.538
+   ],
+   "top_member_exemplars": [
+    "pool_drake_hotline_bling_drakeposting__kymv00017",
+    "pool_drake_hotline_bling_drakeposting__kymv00023",
+    "pool_drake_hotline_bling_drakeposting__kymv00004",
+    "pool_drake_hotline_bling_drakeposting__kymv00041",
+    "pool_drake_hotline_bling_drakeposting__kymv00002"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_american_chopper_argument__kymv00004",
+    "pool_soyjak_pointing__kymv00010",
+    "pool_roll_safe__kymv00000",
+    "pool_surprised_pikachu__kymv00019",
+    "pool_two_buttons_daily_struggle__kymv00018"
+   ],
+   "top_nonmember_fit": [
+    0.847
+   ]
+  },
+  "expanding_brain_galaxy_brain": {
+   "n_members": 21,
+   "feature_indices": [
+    390,
+    101,
+    4915,
+    4125,
+    3556,
+    4361,
+    717,
+    4695,
+    3735,
+    5277,
+    2247,
+    3941,
+    2045,
+    3749,
+    3398
+   ],
+   "weights": [
+    3.007,
+    2.735,
+    2.163,
+    2.071,
+    2.002,
+    1.802,
+    1.509,
+    1.496,
+    1.412,
+    1.17,
+    1.103,
+    1.06,
+    1.057,
+    1.005,
+    0.938
+   ],
+   "top_member_exemplars": [
+    "pool_expanding_brain_galaxy_brain__kymv00021",
+    "pool_expanding_brain_galaxy_brain__kymv00017",
+    "pool_expanding_brain_galaxy_brain__kymv00015",
+    "pool_expanding_brain_galaxy_brain__kymv00029",
+    "pool_expanding_brain_galaxy_brain__kymv00031"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_roll_safe__kymv00014",
+    "pool_roll_safe__kymv00010",
+    "pool_roll_safe__kymv00031",
+    "pool_roll_safe__kymv00035",
+    "pool_roll_safe__kymv00004"
+   ],
+   "top_nonmember_fit": [
+    0.885
+   ]
+  },
+  "hide_the_pain_harold": {
+   "n_members": 23,
+   "feature_indices": [
+    1219,
+    1476,
+    322,
+    5899,
+    3790,
+    943,
+    4898,
+    1051,
+    5821,
+    4234,
+    3850,
+    276,
+    5297,
+    5323,
+    4915
+   ],
+   "weights": [
+    3.004,
+    1.805,
+    1.726,
+    1.695,
+    1.513,
+    1.459,
+    1.159,
+    0.98,
+    0.924,
+    0.861,
+    0.817,
+    0.773,
+    0.746,
+    0.632,
+    0.605
+   ],
+   "top_member_exemplars": [
+    "pool_hide_the_pain_harold__kymv00028",
+    "pool_hide_the_pain_harold__kymv00026",
+    "pool_hide_the_pain_harold__kymv00002",
+    "pool_hide_the_pain_harold__kymv00043",
+    "pool_hide_the_pain_harold__kymv00001"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_soyjak_pointing__kymv00048",
+    "pool_x_all_the_y__kymv00038",
+    "pool_disaster_girl__kymv00020",
+    "pool_yo_dawg_i_heard_you_like__kymv00028",
+    "pool_okay_boomer__kymv00034"
+   ],
+   "top_nonmember_fit": [
+    0.66
+   ]
+  },
+  "is_this_a_pigeon": {
+   "n_members": 25,
+   "feature_indices": [
+    4915,
+    2352,
+    3790,
+    101,
+    5465,
+    943,
+    3788,
+    5277,
+    3652,
+    2189,
+    5187,
+    3556,
+    156,
+    5320,
+    4552
+   ],
+   "weights": [
+    2.605,
+    1.871,
+    1.744,
+    1.525,
+    1.479,
+    1.367,
+    1.055,
+    0.97,
+    0.861,
+    0.809,
+    0.794,
+    0.726,
+    0.63,
+    0.598,
+    0.593
+   ],
+   "top_member_exemplars": [
+    "pool_is_this_a_pigeon__kymv00010",
+    "pool_is_this_a_pigeon__kymv00030",
+    "pool_is_this_a_pigeon__kymv00041",
+    "pool_is_this_a_pigeon__kymv00004",
+    "pool_is_this_a_pigeon__kymv00008"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_npc_i_support_the_current_thing__kymv00000",
+    "pool_they_did_surgery_on_a_grape__kymv00048",
+    "pool_two_buttons_daily_struggle__kymv00000",
+    "pool_woman_yelling_at_a_cat__kymv00015",
+    "pool_two_buttons_daily_struggle__kymv00008"
+   ],
+   "top_nonmember_fit": [
+    0.883
+   ]
+  },
+  "lolcats_i_can_has_cheezburger_lolspeak": {
+   "n_members": 25,
+   "feature_indices": [
+    5100,
+    2507,
+    2970,
+    5238,
+    5188,
+    1613,
+    3790,
+    4070,
+    5634,
+    3624,
+    4807,
+    3788,
+    4457,
+    2745,
+    763
+   ],
+   "weights": [
+    5.978,
+    3.876,
+    1.914,
+    1.655,
+    1.644,
+    1.532,
+    1.369,
+    1.335,
+    0.948,
+    0.878,
+    0.67,
+    0.666,
+    0.545,
+    0.543,
+    0.535
+   ],
+   "top_member_exemplars": [
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00048",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00024",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00016",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00032",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00018"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_distracted_boyfriend__kymv00010",
+    "pool_y_all_got_anymore_of__kymv00032",
+    "pool_this_is_fine__kymv00038",
+    "pool_woman_yelling_at_a_cat__kymv00038",
+    "pool_woman_yelling_at_a_cat__kymv00034"
+   ],
+   "top_nonmember_fit": [
+    0.891
+   ]
+  },
+  "loss_is_this_loss": {
+   "n_members": 25,
+   "feature_indices": [
+    101,
+    3716,
+    717,
+    5709,
+    2325,
+    5093,
+    5548,
+    4443,
+    3283,
+    3946,
+    1235,
+    5960,
+    5323,
+    6063,
+    4807
+   ],
+   "weights": [
+    2.799,
+    1.687,
+    1.573,
+    1.266,
+    1.138,
+    1.122,
+    0.919,
+    0.643,
+    0.621,
+    0.618,
+    0.594,
+    0.584,
+    0.582,
+    0.553,
+    0.511
+   ],
+   "top_member_exemplars": [
+    "pool_loss_is_this_loss__kymv00006",
+    "pool_loss_is_this_loss__kymv00046",
+    "pool_loss_is_this_loss__kymv00028",
+    "pool_loss_is_this_loss__kymv00039",
+    "pool_loss_is_this_loss__kymv00012"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_two_buttons_daily_struggle__kymv00006",
+    "pool_two_buttons_daily_struggle__kymv00014",
+    "pool_this_is_fine__kymv00022",
+    "pool_drake_hotline_bling_drakeposting__kymv00045",
+    "pool_they_did_surgery_on_a_grape__kymv00032"
+   ],
+   "top_nonmember_fit": [
+    0.842
+   ]
+  },
+  "mocking_spongebob": {
+   "n_members": 25,
+   "feature_indices": [
+    4915,
+    4126,
+    101,
+    3652,
+    3790,
+    943,
+    2881,
+    5297,
+    457,
+    5212,
+    3556,
+    2413,
+    1283,
+    2929,
+    3984
+   ],
+   "weights": [
+    1.952,
+    1.621,
+    1.245,
+    1.136,
+    1.061,
+    0.977,
+    0.965,
+    0.953,
+    0.867,
+    0.772,
+    0.746,
+    0.701,
+    0.701,
+    0.662,
+    0.632
+   ],
+   "top_member_exemplars": [
+    "pool_mocking_spongebob__kymv00014",
+    "pool_mocking_spongebob__kymv00046",
+    "pool_mocking_spongebob__kymv00006",
+    "pool_mocking_spongebob__kymv00016",
+    "pool_mocking_spongebob__kymv00034"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_surprised_pikachu__kymv00027",
+    "pool_surprised_pikachu__kymv00047",
+    "pool_they_did_surgery_on_a_grape__kymv00002",
+    "pool_yo_dawg_i_heard_you_like__kymv00018",
+    "pool_they_did_surgery_on_a_grape__kymv00028"
+   ],
+   "top_nonmember_fit": [
+    0.899
+   ]
+  },
+  "nobody_literally_no_one": {
+   "n_members": 26,
+   "feature_indices": [
+    943,
+    4915,
+    3790,
+    101,
+    5297,
+    4126,
+    3652,
+    5277,
+    1613,
+    2949,
+    4125,
+    4364,
+    2189,
+    5724,
+    3942
+   ],
+   "weights": [
+    2.677,
+    2.439,
+    2.361,
+    2.104,
+    1.476,
+    1.286,
+    0.995,
+    0.792,
+    0.683,
+    0.672,
+    0.661,
+    0.583,
+    0.578,
+    0.524,
+    0.507
+   ],
+   "top_member_exemplars": [
+    "pool_nobody_literally_no_one__kymv00043",
+    "pool_nobody_literally_no_one__kymv00039",
+    "pool_nobody_literally_no_one__kymv00034",
+    "pool_nobody_literally_no_one__kymv00035",
+    "pool_nobody_literally_no_one__kymv00037"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_surprised_pikachu__kymv00041",
+    "pool_this_is_fine__kymv00048",
+    "pool_npc_i_support_the_current_thing__kymv00000",
+    "pool_hide_the_pain_harold__kymv00012",
+    "pool_mocking_spongebob__kymv00018"
+   ],
+   "top_nonmember_fit": [
+    0.951
+   ]
+  },
+  "npc_i_support_the_current_thing": {
+   "n_members": 15,
+   "feature_indices": [
+    4915,
+    5260,
+    5277,
+    390,
+    4290,
+    5848,
+    1712,
+    5465,
+    2675,
+    4361,
+    2046,
+    3270,
+    5093,
+    3461,
+    76
+   ],
+   "weights": [
+    1.846,
+    1.659,
+    1.614,
+    1.54,
+    1.313,
+    1.284,
+    1.05,
+    0.947,
+    0.896,
+    0.839,
+    0.816,
+    0.804,
+    0.728,
+    0.722,
+    0.72
+   ],
+   "top_member_exemplars": [
+    "pool_npc_i_support_the_current_thing__kymv00026",
+    "pool_npc_i_support_the_current_thing__kymv00028",
+    "pool_npc_i_support_the_current_thing__kymv00000",
+    "pool_npc_i_support_the_current_thing__kymv00015",
+    "pool_npc_i_support_the_current_thing__kymv00022"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_expanding_brain_galaxy_brain__kymv00002",
+    "pool_soyjak_pointing__kymv00002",
+    "pool_okay_boomer__kymv00028",
+    "pool_two_buttons_daily_struggle__kymv00046",
+    "pool_is_this_a_pigeon__kymv00022"
+   ],
+   "top_nonmember_fit": [
+    0.695
+   ]
+  },
+  "okay_boomer": {
+   "n_members": 24,
+   "feature_indices": [
+    5465,
+    1051,
+    3709,
+    4739,
+    5277,
+    4137,
+    2199,
+    3716,
+    4093,
+    6029,
+    5948,
+    3792,
+    5297,
+    341,
+    4301
+   ],
+   "weights": [
+    3.122,
+    2.94,
+    2.56,
+    1.447,
+    1.072,
+    1.046,
+    1.003,
+    0.884,
+    0.784,
+    0.774,
+    0.771,
+    0.745,
+    0.692,
+    0.684,
+    0.642
+   ],
+   "top_member_exemplars": [
+    "pool_okay_boomer__kymv00014",
+    "pool_okay_boomer__kymv00000",
+    "pool_okay_boomer__kymv00004",
+    "pool_okay_boomer__kymv00036",
+    "pool_okay_boomer__kymv00018"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_american_chopper_argument__kymv00018",
+    "pool_nobody_literally_no_one__kymv00018",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00002",
+    "pool_drake_hotline_bling_drakeposting__kymv00015",
+    "pool_hide_the_pain_harold__kymv00016"
+   ],
+   "top_nonmember_fit": [
+    0.796
+   ]
+  },
+  "pepe_the_frog": {
+   "n_members": 25,
+   "feature_indices": [
+    2970,
+    2652,
+    947,
+    2389,
+    6112,
+    4126,
+    4814,
+    5238,
+    4311,
+    5289,
+    3850,
+    2325,
+    7,
+    5612,
+    3556
+   ],
+   "weights": [
+    6.907,
+    5.723,
+    3.098,
+    2.984,
+    2.427,
+    1.992,
+    1.935,
+    1.806,
+    1.538,
+    1.537,
+    1.511,
+    1.449,
+    1.446,
+    1.42,
+    1.363
+   ],
+   "top_member_exemplars": [
+    "pool_pepe_the_frog__kymv00005",
+    "pool_pepe_the_frog__kymv00002",
+    "pool_pepe_the_frog__kymv00036",
+    "pool_pepe_the_frog__kymv00010",
+    "pool_pepe_the_frog__kymv00022"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_stonks_meme_man_series__kymv00029",
+    "pool_soyjak_pointing__kymv00034",
+    "pool_roll_safe__kymv00002",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00026",
+    "pool_surprised_pikachu__kymv00033"
+   ],
+   "top_nonmember_fit": [
+    0.834
+   ]
+  },
+  "pov_you_are_x": {
+   "n_members": 25,
+   "feature_indices": [
+    5465,
+    2329,
+    5124,
+    4290,
+    3652,
+    5093,
+    4126,
+    5297,
+    101,
+    2334,
+    1992,
+    5805,
+    3359,
+    336,
+    4953
+   ],
+   "weights": [
+    2.85,
+    2.619,
+    2.159,
+    1.622,
+    1.374,
+    1.217,
+    0.93,
+    0.847,
+    0.785,
+    0.668,
+    0.661,
+    0.638,
+    0.592,
+    0.561,
+    0.542
+   ],
+   "top_member_exemplars": [
+    "pool_pov_you_are_x__kymv00030",
+    "pool_pov_you_are_x__kymv00032",
+    "pool_pov_you_are_x__kymv00004",
+    "pool_pov_you_are_x__kymv00044",
+    "pool_pov_you_are_x__kymv00006"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_is_this_a_pigeon__kymv00038",
+    "pool_is_this_a_pigeon__kymv00039",
+    "pool_yo_dawg_i_heard_you_like__kymv00004",
+    "pool_npc_i_support_the_current_thing__kymv00010",
+    "pool_yo_dawg_i_heard_you_like__kymv00006"
+   ],
+   "top_nonmember_fit": [
+    0.837
+   ]
+  },
+  "roll_safe": {
+   "n_members": 26,
+   "feature_indices": [
+    390,
+    3735,
+    2126,
+    799,
+    2878,
+    4125,
+    4695,
+    2652,
+    3790,
+    3556,
+    1812,
+    2045,
+    5623,
+    4985,
+    1972
+   ],
+   "weights": [
+    2.45,
+    1.84,
+    1.478,
+    1.438,
+    1.391,
+    1.218,
+    1.179,
+    1.11,
+    1.074,
+    1.003,
+    0.96,
+    0.868,
+    0.863,
+    0.857,
+    0.855
+   ],
+   "top_member_exemplars": [
+    "pool_roll_safe__kymv00011",
+    "pool_roll_safe__kymv00029",
+    "pool_roll_safe__kymv00031",
+    "pool_roll_safe__kymv00035",
+    "pool_roll_safe__kymv00010"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00006",
+    "pool_expanding_brain_galaxy_brain__kymv00033",
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00028",
+    "pool_disaster_girl__kymv00010",
+    "pool_expanding_brain_galaxy_brain__kymv00019"
+   ],
+   "top_nonmember_fit": [
+    0.82
+   ]
+  },
+  "skill_issue_git_gud_cope_seethe_mald": {
+   "n_members": 25,
+   "feature_indices": [
+    1747,
+    5093,
+    799,
+    5323,
+    5519,
+    3013,
+    3735,
+    5465,
+    2675,
+    2949,
+    2189,
+    5805,
+    940,
+    3283,
+    1417
+   ],
+   "weights": [
+    4.368,
+    3.719,
+    2.496,
+    2.487,
+    2.064,
+    1.659,
+    1.276,
+    1.064,
+    0.974,
+    0.944,
+    0.939,
+    0.917,
+    0.912,
+    0.91,
+    0.901
+   ],
+   "top_member_exemplars": [
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00004",
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00049",
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00020",
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00022",
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00028"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_npc_i_support_the_current_thing__kymv00008",
+    "pool_hide_the_pain_harold__kymv00002",
+    "pool_roll_safe__kymv00035",
+    "pool_x_all_the_y__kymv00002",
+    "pool_soyjak_pointing__kymv00026"
+   ],
+   "top_nonmember_fit": [
+    0.749
+   ]
+  },
+  "wojak_soyjak": {
+   "n_members": 25,
+   "feature_indices": [
+    2970,
+    2652,
+    5821,
+    4126,
+    3850,
+    2325,
+    4898,
+    6112,
+    4814,
+    2020,
+    4552,
+    5948,
+    2677,
+    2934,
+    3632
+   ],
+   "weights": [
+    2.258,
+    1.799,
+    1.608,
+    1.599,
+    1.1,
+    1.087,
+    1.084,
+    0.874,
+    0.774,
+    0.74,
+    0.701,
+    0.698,
+    0.695,
+    0.641,
+    0.641
+   ],
+   "top_member_exemplars": [
+    "pool_soyjak_pointing__kymv00034",
+    "pool_soyjak_pointing__kymv00030",
+    "pool_soyjak_pointing__kymv00018",
+    "pool_soyjak_pointing__kymv00012",
+    "pool_soyjak_pointing__kymv00004"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_pepe_the_frog__kymv00022",
+    "pool_pepe_the_frog__kymv00040",
+    "pool_pepe_the_frog__kymv00026",
+    "pool_pepe_the_frog__kymv00004",
+    "pool_pepe_the_frog__kymv00036"
+   ],
+   "top_nonmember_fit": [
+    0.91
+   ]
+  },
+  "stonks_meme_man_series": {
+   "n_members": 22,
+   "feature_indices": [
+    2691,
+    4007,
+    2375,
+    4822,
+    5273,
+    6129,
+    2334,
+    2480,
+    101,
+    2142,
+    4898,
+    5465,
+    4491,
+    886,
+    5948
+   ],
+   "weights": [
+    4.555,
+    4.036,
+    3.923,
+    2.161,
+    2.044,
+    1.847,
+    1.839,
+    1.764,
+    1.593,
+    1.578,
+    1.355,
+    1.335,
+    1.292,
+    1.281,
+    1.178
+   ],
+   "top_member_exemplars": [
+    "pool_stonks_meme_man_series__kymv00031",
+    "pool_stonks_meme_man_series__kymv00007",
+    "pool_stonks_meme_man_series__kymv00025",
+    "pool_stonks_meme_man_series__kymv00049",
+    "pool_stonks_meme_man_series__kymv00039"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_trade_offer__kymv00022",
+    "pool_trade_offer__kymv00020",
+    "pool_x_all_the_y__kymv00032",
+    "pool_trade_offer__kymv00004",
+    "pool_y_all_got_anymore_of__kymv00040"
+   ],
+   "top_nonmember_fit": [
+    0.694
+   ]
+  },
+  "surprised_pikachu": {
+   "n_members": 18,
+   "feature_indices": [
+    4915,
+    943,
+    5254,
+    2413,
+    101,
+    2179,
+    2246,
+    3556,
+    5465,
+    5107,
+    4364,
+    3850,
+    2675,
+    5297,
+    3790
+   ],
+   "weights": [
+    2.104,
+    1.916,
+    1.822,
+    1.745,
+    1.694,
+    1.051,
+    1.034,
+    0.881,
+    0.855,
+    0.854,
+    0.775,
+    0.758,
+    0.753,
+    0.752,
+    0.709
+   ],
+   "top_member_exemplars": [
+    "pool_surprised_pikachu__kymv00027",
+    "pool_surprised_pikachu__kymv00049",
+    "pool_surprised_pikachu__kymv00006",
+    "pool_surprised_pikachu__kymv00000",
+    "pool_surprised_pikachu__kymv00047"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_they_did_surgery_on_a_grape__kymv00028",
+    "pool_hide_the_pain_harold__kymv00044",
+    "pool_is_this_a_pigeon__kymv00006",
+    "pool_soyjak_pointing__kymv00040",
+    "pool_nobody_literally_no_one__kymv00030"
+   ],
+   "top_nonmember_fit": [
+    0.756
+   ]
+  },
+  "they_did_surgery_on_a_grape": {
+   "n_members": 25,
+   "feature_indices": [
+    5323,
+    4451,
+    5297,
+    4915,
+    2149,
+    76,
+    2199,
+    101,
+    5876,
+    1411,
+    4319,
+    1747,
+    5655,
+    4635,
+    5330
+   ],
+   "weights": [
+    3.945,
+    2.379,
+    1.677,
+    1.63,
+    1.556,
+    1.259,
+    1.22,
+    1.161,
+    1.111,
+    1.045,
+    1.04,
+    1.022,
+    0.991,
+    0.971,
+    0.958
+   ],
+   "top_member_exemplars": [
+    "pool_they_did_surgery_on_a_grape__kymv00010",
+    "pool_they_did_surgery_on_a_grape__kymv00042",
+    "pool_they_did_surgery_on_a_grape__kymv00040",
+    "pool_they_did_surgery_on_a_grape__kymv00048",
+    "pool_they_did_surgery_on_a_grape__kymv00006"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_hide_the_pain_harold__kymv00010",
+    "pool_woman_yelling_at_a_cat__kymv00016",
+    "pool_npc_i_support_the_current_thing__kymv00024",
+    "pool_skill_issue_git_gud_cope_seethe_mald__kymv00026",
+    "pool_yo_dawg_i_heard_you_like__kymv00026"
+   ],
+   "top_nonmember_fit": [
+    0.717
+   ]
+  },
+  "this_is_fine": {
+   "n_members": 26,
+   "feature_indices": [
+    4244,
+    1235,
+    2652,
+    2325,
+    5821,
+    2970,
+    3850,
+    2172,
+    4959,
+    4989,
+    853,
+    3716,
+    3398,
+    5238,
+    2324
+   ],
+   "weights": [
+    3.743,
+    2.631,
+    1.639,
+    1.47,
+    1.385,
+    1.377,
+    1.282,
+    1.255,
+    1.254,
+    1.22,
+    1.214,
+    1.2,
+    1.021,
+    0.942,
+    0.906
+   ],
+   "top_member_exemplars": [
+    "pool_this_is_fine__kymv00034",
+    "pool_this_is_fine__kymv00022",
+    "pool_this_is_fine__kymv00048",
+    "pool_this_is_fine__kymv00002",
+    "pool_this_is_fine__kymv00019"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_disaster_girl__kymv00002",
+    "pool_disaster_girl__kymv00048",
+    "pool_hide_the_pain_harold__kymv00040",
+    "pool_disaster_girl__kymv00007",
+    "pool_disaster_girl__kymv00000"
+   ],
+   "top_nonmember_fit": [
+    0.836
+   ]
+  },
+  "trade_offer": {
+   "n_members": 19,
+   "feature_indices": [
+    2691,
+    4915,
+    6029,
+    4898,
+    182,
+    5465,
+    5752,
+    3624,
+    3303,
+    1432,
+    5890,
+    2172,
+    5093,
+    3398,
+    2020
+   ],
+   "weights": [
+    2.863,
+    1.813,
+    1.725,
+    1.707,
+    1.565,
+    1.175,
+    1.049,
+    1.018,
+    1.001,
+    0.987,
+    0.973,
+    0.957,
+    0.91,
+    0.902,
+    0.895
+   ],
+   "top_member_exemplars": [
+    "pool_trade_offer__kymv00022",
+    "pool_trade_offer__kymv00008",
+    "pool_trade_offer__kymv00020",
+    "pool_trade_offer__kymv00018",
+    "pool_trade_offer__kymv00000"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_stonks_meme_man_series__kymv00027",
+    "pool_stonks_meme_man_series__kymv00031",
+    "pool_stonks_meme_man_series__kymv00047",
+    "pool_stonks_meme_man_series__kymv00005",
+    "pool_stonks_meme_man_series__kymv00025"
+   ],
+   "top_nonmember_fit": [
+    0.781
+   ]
+  },
+  "two_buttons_daily_struggle": {
+   "n_members": 17,
+   "feature_indices": [
+    4743,
+    3850,
+    2352,
+    2970,
+    717,
+    3749,
+    4814,
+    4757,
+    3716,
+    4125,
+    3790,
+    925,
+    101,
+    3398,
+    4364
+   ],
+   "weights": [
+    3.374,
+    3.204,
+    3.167,
+    2.77,
+    1.935,
+    1.909,
+    1.704,
+    1.7,
+    1.666,
+    1.361,
+    1.345,
+    1.336,
+    1.279,
+    1.258,
+    1.133
+   ],
+   "top_member_exemplars": [
+    "pool_two_buttons_daily_struggle__kymv00004",
+    "pool_two_buttons_daily_struggle__kymv00022",
+    "pool_two_buttons_daily_struggle__kymv00028",
+    "pool_two_buttons_daily_struggle__kymv00020",
+    "pool_two_buttons_daily_struggle__kymv00002"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_mocking_spongebob__kymv00026",
+    "pool_y_all_got_anymore_of__kymv00024",
+    "pool_american_chopper_argument__kymv00044",
+    "pool_npc_i_support_the_current_thing__kymv00004",
+    "pool_npc_i_support_the_current_thing__kymv00006"
+   ],
+   "top_nonmember_fit": [
+    0.721
+   ]
+  },
+  "woman_yelling_at_a_cat": {
+   "n_members": 22,
+   "feature_indices": [
+    5100,
+    3095,
+    4915,
+    717,
+    5519,
+    4767,
+    4126,
+    3984,
+    1085,
+    3957,
+    447,
+    4069,
+    93,
+    5805,
+    3843
+   ],
+   "weights": [
+    2.816,
+    1.959,
+    1.777,
+    1.399,
+    1.207,
+    0.906,
+    0.696,
+    0.651,
+    0.623,
+    0.556,
+    0.554,
+    0.544,
+    0.534,
+    0.525,
+    0.525
+   ],
+   "top_member_exemplars": [
+    "pool_woman_yelling_at_a_cat__kymv00048",
+    "pool_woman_yelling_at_a_cat__kymv00016",
+    "pool_woman_yelling_at_a_cat__kymv00044",
+    "pool_woman_yelling_at_a_cat__kymv00046",
+    "pool_woman_yelling_at_a_cat__kymv00034"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00010",
+    "pool_trade_offer__kymv00037",
+    "pool_okay_boomer__kymv00020",
+    "pool_pov_you_are_x__kymv00049",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00030"
+   ],
+   "top_nonmember_fit": [
+    0.843
+   ]
+  },
+  "x_all_the_y": {
+   "n_members": 23,
+   "feature_indices": [
+    4070,
+    876,
+    2325,
+    3790,
+    1812,
+    5238,
+    5814,
+    4553,
+    2531,
+    6122,
+    765,
+    2189,
+    509,
+    5848,
+    4125
+   ],
+   "weights": [
+    3.468,
+    3.364,
+    1.678,
+    1.642,
+    1.641,
+    1.075,
+    1.034,
+    0.804,
+    0.734,
+    0.718,
+    0.715,
+    0.67,
+    0.62,
+    0.611,
+    0.596
+   ],
+   "top_member_exemplars": [
+    "pool_x_all_the_y__kymv00018",
+    "pool_x_all_the_y__kymv00030",
+    "pool_x_all_the_y__kymv00022",
+    "pool_x_all_the_y__kymv00044",
+    "pool_x_all_the_y__kymv00024"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_surprised_pikachu__kymv00043",
+    "pool_yo_dawg_i_heard_you_like__kymv00035",
+    "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00018",
+    "pool_doge_such_x_much_y_very_z__kymv00023",
+    "pool_yo_dawg_i_heard_you_like__kymv00004"
+   ],
+   "top_nonmember_fit": [
+    0.791
+   ]
+  },
+  "y_all_got_anymore_of": {
+   "n_members": 17,
+   "feature_indices": [
+    3790,
+    1812,
+    5948,
+    5238,
+    2652,
+    4814,
+    925,
+    2724,
+    2352,
+    1938,
+    4457,
+    5071,
+    3850,
+    5821,
+    2056
+   ],
+   "weights": [
+    4.03,
+    2.323,
+    2.193,
+    2.097,
+    1.967,
+    1.918,
+    1.906,
+    1.76,
+    1.449,
+    1.41,
+    1.403,
+    1.296,
+    1.269,
+    1.072,
+    1.066
+   ],
+   "top_member_exemplars": [
+    "pool_y_all_got_anymore_of__kymv00000",
+    "pool_y_all_got_anymore_of__kymv00030",
+    "pool_y_all_got_anymore_of__kymv00040",
+    "pool_y_all_got_anymore_of__kymv00046",
+    "pool_y_all_got_anymore_of__kymv00044"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_roll_safe__kymv00010",
+    "pool_two_buttons_daily_struggle__kymv00032",
+    "pool_roll_safe__kymv00039",
+    "pool_two_buttons_daily_struggle__kymv00022",
+    "pool_x_all_the_y__kymv00024"
+   ],
+   "top_nonmember_fit": [
+    0.824
+   ]
+  },
+  "yo_dawg_i_heard_you_like": {
+   "n_members": 25,
+   "feature_indices": [
+    1938,
+    4070,
+    2392,
+    5216,
+    2195,
+    3741,
+    562,
+    4412,
+    3095,
+    853,
+    1640,
+    5131,
+    4260,
+    1157,
+    3934
+   ],
+   "weights": [
+    1.662,
+    1.271,
+    1.134,
+    1.115,
+    0.992,
+    0.88,
+    0.847,
+    0.826,
+    0.787,
+    0.758,
+    0.714,
+    0.682,
+    0.657,
+    0.651,
+    0.6
+   ],
+   "top_member_exemplars": [
+    "pool_yo_dawg_i_heard_you_like__kymv00028",
+    "pool_yo_dawg_i_heard_you_like__kymv00022",
+    "pool_yo_dawg_i_heard_you_like__kymv00035",
+    "pool_yo_dawg_i_heard_you_like__kymv00042",
+    "pool_yo_dawg_i_heard_you_like__kymv00004"
+   ],
+   "top_nonmember_exemplars": [
+    "pool_soyjak_pointing__kymv00009",
+    "pool_wojak_feels_guy_ecosystem__kymv00008",
+    "pool_loss_is_this_loss__kymv00012",
+    "pool_coffin_dance__kymv00014",
+    "pool_y_all_got_anymore_of__kymv00004"
+   ],
+   "top_nonmember_fit": [
+    0.669
+   ]
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+  "identity_check_B": {
+    "all": {
+      "n": 4263,
+      "corr": 0.9999999283436888,
+      "mean_abs_diff": 2.503804146336132e-05,
+      "max_abs_diff": 5.0066686109184744e-05,
+      "share_within_rounding": 0.9995308468214872,
+      "argmax_agreement": 1.0,
+      "spec_max_abs_diff": 5.0123118559425306e-05
+    },
+    "cached": {
+      "n": 2543,
+      "corr": 0.9999999330721837,
+      "mean_abs_diff": 2.5145477655455933e-05,
+      "max_abs_diff": 4.9999722978921746e-05,
+      "share_within_rounding": 1.0,
+      "argmax_agreement": 1.0,
+      "spec_max_abs_diff": 5.0123118559425306e-05
+    },
+    "fetched": {
+      "n": 1720,
+      "corr": 0.9999999162789249,
+      "mean_abs_diff": 2.4879198302607476e-05,
+      "max_abs_diff": 5.0066686109184744e-05,
+      "share_within_rounding": 0.9988372093023256,
+      "argmax_agreement": 1.0,
+      "spec_max_abs_diff": 5.006459055679341e-05
+    }
+  },
+  "subset_scores_vs_submitted_max_abs_diff": {
+    "raw_max_fit": 1.6608959696462477e-07,
+    "calib_max_fit": 1.591886385376995e-06,
+    "clf_max_prob": 1.1102230246251565e-16,
+    "sae_centroid_max": 1.1920928955078125e-07
+  },
+  "n_bank_signatures": 31,
+  "bank_families": [
+    "american_chopper_argument",
+    "coffin_dance",
+    "disaster_girl",
+    "distracted_boyfriend",
+    "doge_such_x_much_y_very_z",
+    "drake_hotline_bling_drakeposting",
+    "expanding_brain_galaxy_brain",
+    "hide_the_pain_harold",
+    "is_this_a_pigeon",
+    "lolcats_i_can_has_cheezburger_lolspeak",
+    "loss_is_this_loss",
+    "mocking_spongebob",
+    "most_interesting_man_i_don_t_always_x_but_when_i",
+    "nobody_literally_no_one",
+    "npc_i_support_the_current_thing",
+    "okay_boomer",
+    "pepe_the_frog",
+    "pov_you_are_x",
+    "roll_safe",
+    "skill_issue_git_gud_cope_seethe_mald",
+    "stonks_meme_man_series",
+    "surprised_pikachu",
+    "they_did_surgery_on_a_grape",
+    "this_is_fine",
+    "trade_offer",
+    "two_buttons_daily_struggle",
+    "wojak_soyjak",
+    "woman_yelling_at_a_cat",
+    "x_all_the_y",
+    "y_all_got_anymore_of",
+    "yo_dawg_i_heard_you_like"
+  ],
+  "argmax_never_small_family": false
+}

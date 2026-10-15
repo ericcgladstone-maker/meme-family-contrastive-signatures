@@ -1,0 +1,15 @@
+{
+  "n_unique": 60,
+  "n_bins": 6,
+  "n_per_bin": 10,
+  "totals": {
+    "confirm": 0,
+    "other_family": 3,
+    "none": 6,
+    "uncertain": 51,
+    "any_family": 3
+  },
+  "repeat_pairs": 10,
+  "repeat_agree": 10,
+  "source_sha256": "c997d22faa65777a9c7511e8bb91f9a8f6373066c80e1e5af8c62cffee1ba6bf"
+}

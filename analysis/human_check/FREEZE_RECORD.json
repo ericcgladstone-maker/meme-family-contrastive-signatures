@@ -1,0 +1,57 @@
+{
+  "record": "15b operative freeze: blinded author-coded human check (R2-4)",
+  "created": "2026-09-30T22:30:11-04:00",
+  "protocol_version": "15b v1.0",
+  "authorization": "Author decision (Eric, 2026-09-30; GPT-recommended): R2-4 redesign; create a new operative freeze before the 60-post draw (09 F-51).",
+  "supersedes": {
+    "protocol": "15_Human_Validation_Protocol.md v0.8",
+    "freeze_record": "analysis/human_validation/FREEZE_RECORD.json",
+    "freeze_record_sha256_at_supersession": "fe23d6efe42659395b3cf1498c4ef0066d9046880aa66b083478091c213bcbfe",
+    "note": "Superseded before any real draw or human label; the old record and its files are kept unchanged as the audit record."
+  },
+  "items": {
+    "15b_Human_Check_Protocol.md": "6f4f5961c60e473d3f251e8db1e8197b901d8e9adca5e37db5553ed8d4d4d2c9",
+    "analysis/human_check/hc_common.py": "cbe4fdf37ce1ce6dcdf34c646022480ddf1f3907327a2ea72adaa1ece4e31fcf",
+    "analysis/human_check/draw_check.py": "007d9ce4e86e80c0c3bf635d63ad77863765e2c1d772f15260d518c27b2d46b2",
+    "analysis/human_check/coding_form_check.html": "9edd5e17bd1144dba08b1daebcfbf0ce2bb8063a55a7838c11f0df7cfed9685c",
+    "analysis/human_check/freeze_labels.py": "1760eef663e419d9a882591dd06e7736fded71bfd881fb239de28ac01a69dc1b",
+    "analysis/human_check/analyze_check.py": "a9cd23c03699171a6e642786cd8d394a50cb3b485a3e94acb29f898425e81147",
+    "analysis/human_validation/hv_common.py": "0d1ce743d6c961e1be82a848b383ccd2bb2ebcfce7330d5240fe920a8cd640b1",
+    "analysis/g1_full_sample/out/scores_all.csv": "f474767a8f9f7df58ff905d00d4c4d97edc399b4af469838f38300349229fb4b",
+    "analysis/g2_template_cluster/out/clusters.csv": "3e69519b41042e65d5969e537b41b7335a01b5cab773180e8cc307236c919e3d",
+    "../build/first_results/ph4_q2_horsepower/q2_denom_images_manifest.csv": "8d15989e8d425d38bd4b67a1a339ea11c72f03c3bbaf4c9f086eeb8d15112756",
+    "../build/first_results/ph4_q2_horsepower/q2_denom_outcomes.csv": "ea67d0bdcd7b75c07dc8d5e58ed067e0f8cc487899cfdbe10da05f4809c777de",
+    "../build/first_results/cross_family_dedup/cross_family_corrected_index.csv": "8c314c74071a1b2bd6785df41e6eebccdd4956b2be1fbb32fdd959ce19c5fa59",
+    "analysis/human_validation/reference/reference_manifest.csv": "f7cd7854ee3afd984db4cd7bfb707b78e4c4ca7552abeb490199903909461f09",
+    "analysis/human_validation/reference/reference_sheet.html": "61d7abeca01f1fb1394564244f16ce3d564197b4dd5734620276b26a84ed1b40",
+    "analysis/human_validation/reference/reference_assets.csv": "bb7c2ee9f238aa29384b8846907b037bfce967e9f9baa1bfba72eb289a721022"
+  },
+  "reference_assets": {
+    "manifest": "analysis/human_validation/reference/reference_assets.csv",
+    "n_assets": 122,
+    "all_verified_at_freeze": true
+  },
+  "audit_artifacts": {
+    "analysis/human_check/test_check.py": "461d417f3498a45b078878fd3514bc0c72cfd31b122cebad0c528cbb4596a125",
+    "analysis/human_check/fixture_test_report.json": "640f708a49a20a16224a9ae29ccceecc19e20ac9159e18c7ee066a9b59c3f02b"
+  },
+  "fixture_report_summary": {
+    "n": 38,
+    "all_pass": true
+  },
+  "gate_note": "draw_check.py real mode runs only if every item re-hashes and the reference assets verify. One draw only. No field may change without a 15b \u00a711 amendment logged in 09.",
+  "audit_artifact_history": [
+    {
+      "replaced_at": "2026-09-30 22:49 EDT",
+      "previous": {
+        "analysis/human_check/test_check.py": "8710e2d0ddfc016a1ccc3fc522a64e101d77f7d71f901cc8e391fa810bba7dea",
+        "analysis/human_check/fixture_test_report.json": "1c906871e690c8e828b82d719734fcab0a7e9c39bbacd089c02055874ce1dfae"
+      },
+      "previous_summary": {
+        "n": 37,
+        "all_pass": true
+      },
+      "reason": "09 F-52: test harness no longer invokes the real-mode draw (GPT pre-draw check)"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "n": 50,
+  "median": 1.0,
+  "share_ge_0p80": 1.0,
+  "exact_match_share": 1.0,
+  "passed": true,
+  "ocrmac_version": "1.0.1",
+  "macos": "26.6.2",
+  "rows": [
+    {
+      "variant_id": "pool_loss_is_this_loss__kymv00020",
+      "stored": "donald j. trump \u2022 @realdonald...\u2022 2d v loss",
+      "new": "donald j. trump \u2022 @realdonald...\u2022 2d v loss",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_mocking_spongebob__kymv00020",
+      "stored": "don't try it. have the high ground. dont try it, i have the high ground i hate you! i hate you",
+      "new": "don't try it. have the high ground. dont try it, i have the high ground i hate you! i hate you",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_okay_boomer__kymv00044",
+      "stored": "stream montac o 16:58 live stream montage 5 - \"ok boomer!\"",
+      "new": "stream montac o 16:58 live stream montage 5 - \"ok boomer!\"",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_skill_issue_git_gud_cope_seethe_mald__kymv00016",
+      "stored": "looks like we\"ll need a different plan.",
+      "new": "looks like we\"ll need a different plan.",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_soyjak_pointing__kymv00018",
+      "stored": "we have such feels to show you",
+      "new": "we have such feels to show you",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_they_did_surgery_on_a_grape__kymv00014",
+      "stored": "he played piano like an epic sir tiktok he played piano like an epic sir he played piano like an epic sir he played piano like an epicsir le played piano like an epic sir 112 comm 236,938 likes jacksepti veile played piano like an onccomment liked by jamescharles and 8,578,562 others m&sn he played piano like an epic sir he played piano like an epic sir",
+      "new": "he played piano like an epic sir tiktok he played piano like an epic sir he played piano like an epic sir he played piano like an epicsir le played piano like an epic sir 112 comm 236,938 likes jacksepti veile played piano like an onccomment liked by jamescharles and 8,578,562 others m&sn he played piano like an epic sir he played piano like an epic sir",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_distracted_boyfriend__kymv00042",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_x_all_the_y__kymv00012",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_nobody_literally_no_one__kymv00048",
+      "stored": "no one: literally no one: not a single soul ever: loading screen tips: shoot to shoot the pistol. made with mematic",
+      "new": "no one: literally no one: not a single soul ever: loading screen tips: shoot to shoot the pistol. made with mematic",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_is_this_a_pigeon__kymv00043",
+      "stored": "spy kreme ughnut . 0 is this cosplay?",
+      "new": "spy kreme ughnut . 0 is this cosplay?",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_stonks_meme_man_series__kymv00045",
+      "stored": "gaming esports culture learn 009% 10c 286 news 1 4563 roblox ends first day on stock market at $38bn, more than ea, ubisoft 7 roblox's stock market debut puts it at $69.50 a share, nice. march chris higgins editor-in-chief roblonks. 2021",
+      "new": "gaming esports culture learn 009% 10c 286 news 1 4563 roblox ends first day on stock market at $38bn, more than ea, ubisoft 7 roblox's stock market debut puts it at $69.50 a share, nice. march chris higgins editor-in-chief roblonks. 2021",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_surprised_pikachu__kymv00029",
+      "stored": "internet: we've seen all the surpised pikachus we are ever going to see. this meme is dead. japan's toy industry: tom",
+      "new": "internet: we've seen all the surpised pikachus we are ever going to see. this meme is dead. japan's toy industry: tom",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_they_did_surgery_on_a_grape__kymv00048",
+      "stored": "todd 'papi' carlos @thetoddwilliams they did surgery on a grape follow",
+      "new": "todd 'papi' carlos @thetoddwilliams they did surgery on a grape follow",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_roll_safe__kymv00011",
+      "stored": "if you don't ever find a contractor to take on your project opening you won't have to pay a contractor imgflip.com",
+      "new": "if you don't ever find a contractor to take on your project opening you won't have to pay a contractor imgflip.com",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_skill_issue_git_gud_cope_seethe_mald__kymv00024",
+      "stored": "git gud",
+      "new": "git gud",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_this_is_fine__kymv00040",
+      "stored": "this is fine.",
+      "new": "this is fine.",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_x_all_the_y__kymv00043",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_they_did_surgery_on_a_grape__kymv00020",
+      "stored": "& tiktok he played piano like an epic sir he played piano like an epic sir he played piano like an lepissir he played piano like an epic sir see tute 112 comm 236,938 likes jacksepti: veile plaved piano like an epiccomment liked by jamescharles and 8,578,562 others m&sn he played piano like an epic sir he played piano like an epic sir",
+      "new": "& tiktok he played piano like an epic sir he played piano like an epic sir he played piano like an lepissir he played piano like an epic sir see tute 112 comm 236,938 likes jacksepti: veile plaved piano like an epiccomment liked by jamescharles and 8,578,562 others m&sn he played piano like an epic sir he played piano like an epic sir",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_okay_boomer__kymv00024",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_pov_you_are_x__kymv00014",
+      "stored": "pov: you had a friend over and you told him, \"ong this movie is so boring, shoot me now\" (he has aspergers and doesn't understand figurative language)",
+      "new": "pov: you had a friend over and you told him, \"ong this movie is so boring, shoot me now\" (he has aspergers and doesn't understand figurative language)",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_american_chopper_argument__kymv00001",
+      "stored": "just bur a staser home theyre seok here is st save harder.",
+      "new": "just bur a staser home theyre seok here is st save harder.",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_skill_issue_git_gud_cope_seethe_mald__kymv00020",
+      "stored": "git gud",
+      "new": "git gud",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_is_this_a_pigeon__kymv00033",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_they_did_surgery_on_a_grape__kymv00024",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_expanding_brain_galaxy_brain__kymv00013",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_woman_yelling_at_a_cat__kymv00002",
+      "stored": "redditors an opinion that contradicts theirs even slightly",
+      "new": "redditors an opinion that contradicts theirs even slightly",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_soyjak_pointing__kymv00006",
+      "stored": "expectation reality",
+      "new": "expectation reality",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_is_this_a_pigeon__kymv00026",
+      "stored": "pollen, peanuts, your own cells, organ transplants immune system is this a threat 5*\u0444\u00ae ?",
+      "new": "pollen, peanuts, your own cells, organ transplants immune system is this a threat 5*\u0444\u00ae ?",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_coffin_dance__kymv00008",
+      "stored": "normal people getting a coffin dance: your mom getting a coffin dance:",
+      "new": "normal people getting a coffin dance: your mom getting a coffin dance:",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_okay_boomer__kymv00042",
+      "stored": "ben @leeknowsine i| stream gone days the title \"gone days\" is actually another word play with the korean word zch (kkondae) which basically means boomer so everybody say stray kids world domination urban type any word top definition a old or upper class person who has fuddy- duddy, aggressive attitude toward young people and doesn't try to understand new things.",
+      "new": "ben @leeknowsine i| stream gone days the title \"gone days\" is actually another word play with the korean word zch (kkondae) which basically means boomer so everybody say stray kids world domination urban type any word top definition a old or upper class person who has fuddy- duddy, aggressive attitude toward young people and doesn't try to understand new things.",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_disaster_girl__kymv00029",
+      "stored": "38",
+      "new": "38",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00035",
+      "stored": "ur passwerd is fail entry are denied",
+      "new": "ur passwerd is fail entry are denied",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00044",
+      "stored": "i think those are.. balisi!",
+      "new": "i think those are.. balisi!",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_yo_dawg_i_heard_you_like__kymv00030",
+      "stored": "the android powered iphone case oaxis droid systee recovery utility poisocard upontanzin hack tron says: february 7, 2015 at 3:03 am yo dawg, i herd you like phones, so i put a phone in yo phone so you can text while u text. - xzibit recovery system v1.00 :can't open /cache/recoveru/coss./",
+      "new": "the android powered iphone case oaxis droid systee recovery utility poisocard upontanzin hack tron says: february 7, 2015 at 3:03 am yo dawg, i herd you like phones, so i put a phone in yo phone so you can text while u text. - xzibit recovery system v1.00 :can't open /cache/recoveru/coss./",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_okay_boomer__kymv00038",
+      "stored": "\"ok, generation zer!\" kely - waterbeds - vcrs - kennedy assassination - microwaves -penthouse magazine - vietnam - bob seger's \"like a rock\" - watergate - kool cigarettes - cola wars - 3 mile island - lee majors - upc bar codes - space shuttle challenger - camaros coicic heh heh heh -participation trophies - \"skinny jeans\" - rap bands -??? accomplished boomers ageist pipsqueaks retorts illustrated",
+      "new": "\"ok, generation zer!\" kely - waterbeds - vcrs - kennedy assassination - microwaves -penthouse magazine - vietnam - bob seger's \"like a rock\" - watergate - kool cigarettes - cola wars - 3 mile island - lee majors - upc bar codes - space shuttle challenger - camaros coicic heh heh heh -participation trophies - \"skinny jeans\" - rap bands -??? accomplished boomers ageist pipsqueaks retorts illustrated",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_pepe_the_frog__kymv00012",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_expanding_brain_galaxy_brain__kymv00021",
+      "stored": "be a hero of justice be a peace symbol be a fear symbol that keeps humanity together through a common enemy fuck this gay shit \u00ae5889",
+      "new": "be a hero of justice be a peace symbol be a fear symbol that keeps humanity together through a common enemy fuck this gay shit \u00ae5889",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_is_this_a_pigeon__kymv00008",
+      "stored": "conspiracy theorist is this a proof of ancient space travel?",
+      "new": "conspiracy theorist is this a proof of ancient space travel?",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_distracted_boyfriend__kymv00020",
+      "stored": "general kelly: trump admired hitler the atlanta journacestitution",
+      "new": "general kelly: trump admired hitler the atlanta journacestitution",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_is_this_a_pigeon__kymv00006",
+      "stored": "is this 540r the end?",
+      "new": "is this 540r the end?",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_woman_yelling_at_a_cat__kymv00015",
+      "stored": "if we are so technological advanced, why isnt there any artificial dopamine? yo wtf",
+      "new": "if we are so technological advanced, why isnt there any artificial dopamine? yo wtf",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_expanding_brain_galaxy_brain__kymv00027",
+      "stored": "doctor announcing you're going into a coma going into a coma ignore what he said skip coma",
+      "new": "doctor announcing you're going into a coma going into a coma ignore what he said skip coma",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_pov_you_are_x__kymv00022",
+      "stored": "sage hyden \u2192 \"just write\" on youtube @sagehyden it must be studied how tiktok made \"pov\" mean the opposite of what it means president-elect toguro @presidenttoguro \u2022 aug 23 show this thread pov: you just punched a hole through the flirty goth girls chest, revealing the wires, metal plating. and cia wiretaps \u2022 ..",
+      "new": "sage hyden \u2192 \"just write\" on youtube @sagehyden it must be studied how tiktok made \"pov\" mean the opposite of what it means president-elect toguro @presidenttoguro \u2022 aug 23 show this thread pov: you just punched a hole through the flirty goth girls chest, revealing the wires, metal plating. and cia wiretaps \u2022 ..",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_is_this_a_pigeon__kymv00014",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_x_all_the_y__kymv00032",
+      "stored": "when finally get a boytriend. shave all the things",
+      "new": "when finally get a boytriend. shave all the things",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_doge_such_x_much_y_very_z__kymv00030",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_skill_issue_git_gud_cope_seethe_mald__kymv00049",
+      "stored": "gud",
+      "new": "gud",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_drake_hotline_bling_drakeposting__kymv00037",
+      "stored": "yelling at servers (restaurant) yelling at servers (it)",
+      "new": "yelling at servers (restaurant) yelling at servers (it)",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_disaster_girl__kymv00007",
+      "stored": "",
+      "new": "",
+      "ratio": 1.0
+    },
+    {
+      "variant_id": "pool_lolcats_i_can_has_cheezburger_lolspeak__kymv00018",
+      "stored": "home new pics pictures videos lolcats upload myspace facebook + bookmark welcome to lolcats.com the number one place to find all of your funny cat macros, memes and all round lolcats in one place on the web. top pics monorail cat gollum cat rumili mmmm tasty s icant held him bak mutculench! it r mini me raymond submitted by laurie catripz irhidin guiz iz hug time now? staikercat",
+      "new": "home new pics pictures videos lolcats upload myspace facebook + bookmark welcome to lolcats.com the number one place to find all of your funny cat macros, memes and all round lolcats in one place on the web. top pics monorail cat gollum cat rumili mmmm tasty s icant held him bak mutculench! it r mini me raymond submitted by laurie catripz irhidin guiz iz hug time now? staikercat",
+      "ratio": 1.0
+    }
+  ]
+}

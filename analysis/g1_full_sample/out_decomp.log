@@ -1,0 +1,25 @@
+[subset_2543] n=2543 raw dR2=+0.0800 adj=+0.0262
+[subset_2543 nulls seed0] rf mean +0.0014 p 0.0000 | lp mean +0.0376 p 0.0250
+[subset_2543 adjusted boot seed0] {'dR2': {'n': 2000, 'median': 0.01775758696037566, 'mean': 0.019361801184662575, 'ci95': [-0.0004174215171426631, 0.05916234611197734], 'share_gt0': 0.9705}}
+[subset_2543 nulls seed1] rf mean +0.0011 p 0.0000 | lp mean +0.0359 p 0.0400
+[subset_2543 nulls seed2] rf mean +0.0010 p 0.0000 | lp mean +0.0367 p 0.0300
+[subset_2543 nulls seed3] rf mean +0.0010 p 0.0000 | lp mean +0.0408 p 0.0550
+[full_4263] n=4263 raw dR2=+0.0683 adj=+0.0128
+[full_4263 nulls seed0] rf mean +0.0014 p 0.0000 | lp mean +0.0394 p 0.0250
+[full_4263 adjusted boot seed0] {'dR2': {'n': 2000, 'median': 0.010305753898224301, 'mean': 0.012696971991105126, 'ci95': [0.0017268127324702983, 0.039901466738057695], 'share_gt0': 0.989}}
+[full_4263 nulls seed1] rf mean +0.0011 p 0.0000 | lp mean +0.0373 p 0.0300
+[full_4263 nulls seed2] rf mean +0.0010 p 0.0000 | lp mean +0.0383 p 0.0250
+[full_4263 nulls seed3] rf mean +0.0011 p 0.0000 | lp mean +0.0413 p 0.0400
+[full_4263 boot raw_fit seed0] dR2 [0.015428459555214638, 0.11615164898565669]
+[full_4263 boot raw_fit seed1] dR2 [0.01669058248101913, 0.11976864163297597]
+[full_4263 boot raw_fit seed2] dR2 [0.013467279845770872, 0.11584142160409545]
+[full_4263 boot raw_fit seed3] dR2 [0.014534899244252488, 0.11824959601978133]
+[full_4263 boot calibrated_fit seed0] dR2 [-0.016550954970526277, 0.0035515763793024374]
+[full_4263 boot classifier_prob seed0] dR2 [-0.004744077747462039, 0.0045672477186688674]
+[full_4263 boot classifier_decision seed0] dR2 [-0.005099344663619443, 0.006123354871429764]
+[full_4263 boot sae_centroid seed0] dR2 [0.011509641761518877, 0.09693532262316006]
+[full_4263 boot raw_over_magnitude seed0] dR2 [0.0018250285313769848, 0.036568753241019866]
+[full_4263 boot raw_over_magnitude seed1] dR2 [0.0017517811820183388, 0.03778022395602665]
+[full_4263 boot raw_over_magnitude seed2] dR2 [0.0013255593732966866, 0.03815168710529745]
+[full_4263 boot raw_over_magnitude seed3] dR2 [0.0012839548257165601, 0.038555423982661936]
+[done] g1_results.json

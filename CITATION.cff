@@ -14,4 +14,4 @@ identifiers:
   - type: doi
     value: "10.17605/OSF.IO/BFWZE"
     description: "OSF project archive (data under CC0 1.0)"
-repository-code: "PLACEHOLDER — public GitHub URL released on acceptance"
+repository-code: "https://github.com/ericcgladstone-maker/meme-family-contrastive-signatures"

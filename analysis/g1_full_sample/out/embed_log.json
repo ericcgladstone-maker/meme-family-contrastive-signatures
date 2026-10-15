@@ -1,0 +1,18 @@
+{
+  "n_denominator": 4263,
+  "n_embedded": 4263,
+  "n_missing": 0,
+  "missing": [],
+  "by_status": {
+    "cached": 2543,
+    "fetched": 1720
+  },
+  "skipped": [],
+  "minutes": 4.644767467180888,
+  "identity_check_A": {
+    "n_common": 2543,
+    "min_cosine": 0.9999997615814209,
+    "mean_cosine": 1.0,
+    "max_abs_diff": 8.58306884765625e-06
+  }
+}

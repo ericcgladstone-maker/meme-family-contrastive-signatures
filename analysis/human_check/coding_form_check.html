@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coding form</title>
+<style>
+  body { font-family: sans-serif; margin: 16px; }
+  #wrap { display: flex; gap: 24px; align-items: flex-start; }
+  #img { max-width: 60vw; max-height: 80vh; border: 1px solid #ccc; }
+  fieldset { margin: 0 0 12px; }
+  #progress { color: #555; margin-bottom: 8px; }
+  button { margin-right: 8px; }
+  #instructions { border: 1px solid #999; background: #f6f6f6; padding: 6px 12px; margin-bottom: 10px; font-size: 14px; }
+  #instructions ul { margin: 4px 0; }
+</style>
+</head>
+<body>
+<!-- 15b §5: the coder sees the image and an opaque item ID only. No title, subreddit, score, bin, predicted family,
+     repeat status, engagement or model output is present anywhere in this file. -->
+<div id="instructions"><strong>Coding instructions (shown on every item)</strong>
+  <ul><!--__INSTRUCTIONS__--></ul>
+  <p><a href="reference/reference_sheet.html" target="_blank">Open the reference sheet</a> (the frozen offline copy in this package).</p>
+</div>
+<div id="progress"></div>
+<div id="wrap">
+  <img id="img" alt="">
+  <form id="f" onsubmit="return false">
+    <fieldset><legend>Label (required)</legend>
+      <select id="primary" required></select>
+    </fieldset>
+    <button id="prev">Previous</button><button id="next">Save and next</button>
+    <button id="export">Export responses (CSV)</button>
+    <p id="msg"></p>
+  </form>
+</div>
+<script>
+const PACKAGE = /*__PACKAGE_JSON__*/null;
+const KEY = "hc15b_" + PACKAGE.coder + "_" + PACKAGE.package_id;
+const items = PACKAGE.items;          // [{id, file}]
+const fams = PACKAGE.families;        // display names, alphabetical
+let store = {};
+try { store = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { store = {}; }
+let i = 0;
+while (i < items.length && store[items[i].id]) i++;
+if (i >= items.length) i = items.length - 1;
+
+const sel = document.getElementById("primary");
+(function fill() {
+  const add = (v, t) => { const o = document.createElement("option"); o.value = v; o.textContent = t; sel.appendChild(o); };
+  add("", "— choose —");
+  for (const f of fams) add(f, f);
+  add("none", "none of these families");
+  add("uncertain", "uncertain");
+})();
+
+function show() {
+  const it = items[i];
+  document.getElementById("img").src = "images/" + it.file;
+  sel.value = (store[it.id] || {}).primary || "";
+  const done = Object.keys(store).length;
+  document.getElementById("progress").textContent = `Item ${i + 1} of ${items.length} (ID ${it.id}) — ${done} saved`;
+  document.getElementById("msg").textContent = "";
+}
+function save() {
+  const it = items[i];
+  if (!sel.value) { document.getElementById("msg").textContent = "Choose a label."; return false; }
+  store[it.id] = { primary: sel.value, ts: new Date().toISOString() };
+  try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {}
+  return true;
+}
+document.getElementById("next").onclick = () => {
+  if (!save()) return;
+  if (i < items.length - 1) { i++; show(); }
+  else { show(); document.getElementById("msg").textContent = "Last item saved. Export when all items are saved."; }
+};
+document.getElementById("prev").onclick = () => { if (i > 0) { i--; show(); } };
+document.getElementById("export").onclick = () => {
+  const rows = [["coder", "package_id", "item_id", "primary", "ts"]];
+  for (const it of items) { const r = store[it.id]; if (r) rows.push([PACKAGE.coder, PACKAGE.package_id, it.id, r.primary, r.ts]); }
+  const csv = rows.map(r => r.map(x => '"' + String(x).replace(/"/g, '""') + '"').join(",")).join("\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+  a.download = `responses_${PACKAGE.coder}_${PACKAGE.package_id}.csv`;
+  a.click();
+};
+show();
+</script>
+</body>
+</html>

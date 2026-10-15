@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "roll-safe",
+    "disposition": "too_small",
+    "parent": "memes/black-twitter",
+    "n_nsfw_images": 0,
+    "n_postdedup": 0,
+    "raw": 15,
+    "d1": 0,
+    "d2": 0,
+    "d3": 15
+  },
+  {
+    "slug": "doge",
+    "disposition": "nsfw",
+    "evidence": "entry redirected to /sensitive/"
+  }
+]

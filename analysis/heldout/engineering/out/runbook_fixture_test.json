@@ -1,0 +1,50 @@
+{
+  "positive_all_pass": true,
+  "negative_all_detected": true,
+  "negatives": [
+    [
+      "duplicate slug",
+      true
+    ],
+    [
+      "pending row",
+      true
+    ],
+    [
+      "image hash mismatch",
+      true
+    ],
+    [
+      "aborted path in manifest",
+      true
+    ],
+    [
+      "aborted run modified",
+      true
+    ],
+    [
+      "shortfall flagged",
+      true
+    ],
+    [
+      "summary/recount mismatch",
+      true
+    ],
+    [
+      "manifest row dropped",
+      true
+    ],
+    [
+      "primary missing a family",
+      true
+    ],
+    [
+      "rank out of [0,1]",
+      true
+    ],
+    [
+      "stored verdict tampered",
+      true
+    ]
+  ]
+}

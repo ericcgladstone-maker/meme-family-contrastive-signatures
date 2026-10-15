@@ -1,0 +1,123 @@
+{
+  "n_dev": 680,
+  "n_reddit": 4263,
+  "rule_exact": "SHA-256 of file bytes",
+  "rule_near": "imagehash.phash(RGB, hash_size=8), Hamming <= 6",
+  "exact": {
+    "reddit_posts_matched": 0,
+    "reddit_pct": 0.0,
+    "dev_images_implicated": 0,
+    "dev_families_implicated": 0
+  },
+  "near": {
+    "reddit_posts_matched": 14,
+    "reddit_pct": 0.328,
+    "dev_images_implicated": 14,
+    "dev_families_implicated": 9
+  },
+  "union": {
+    "reddit_posts_matched": 14,
+    "reddit_pct": 0.328,
+    "dev_images_implicated": 14,
+    "dev_families_implicated": 9
+  },
+  "min_hamming_any_pair": 0,
+  "pairs_for_traceability_not_inspected": [
+    {
+      "dev_variant": "pool_drake_hotline_bling_drakeposting__kymv00000",
+      "dev_family": "pool_drake_hotline_bling_drakeposting",
+      "reddit_post_id": "1td8udo",
+      "hamming": 4
+    },
+    {
+      "dev_variant": "pool_drake_hotline_bling_drakeposting__kymv00000",
+      "dev_family": "pool_drake_hotline_bling_drakeposting",
+      "reddit_post_id": "1t5qmbs",
+      "hamming": 6
+    },
+    {
+      "dev_variant": "pool_expanding_brain_galaxy_brain__kymv00004",
+      "dev_family": "pool_expanding_brain_galaxy_brain",
+      "reddit_post_id": "1tmvy0o",
+      "hamming": 4
+    },
+    {
+      "dev_variant": "pool_is_this_a_pigeon__kymv00003",
+      "dev_family": "pool_is_this_a_pigeon",
+      "reddit_post_id": "1toj26j",
+      "hamming": 6
+    },
+    {
+      "dev_variant": "pool_is_this_a_pigeon__kymv00039",
+      "dev_family": "pool_is_this_a_pigeon",
+      "reddit_post_id": "1t8zc5z",
+      "hamming": 4
+    },
+    {
+      "dev_variant": "pool_mocking_spongebob__kymv00036",
+      "dev_family": "pool_mocking_spongebob",
+      "reddit_post_id": "1taxnjc",
+      "hamming": 6
+    },
+    {
+      "dev_variant": "pool_mocking_spongebob__kymv00046",
+      "dev_family": "pool_mocking_spongebob",
+      "reddit_post_id": "1taxnjc",
+      "hamming": 6
+    },
+    {
+      "dev_variant": "pool_soyjak_pointing__kymv00006",
+      "dev_family": "pool_wojak_soyjak",
+      "reddit_post_id": "1tga6kh",
+      "hamming": 0
+    },
+    {
+      "dev_variant": "pool_surprised_pikachu__kymv00016",
+      "dev_family": "pool_surprised_pikachu",
+      "reddit_post_id": "1thsifd",
+      "hamming": 4
+    },
+    {
+      "dev_variant": "pool_this_is_fine__kymv00030",
+      "dev_family": "pool_this_is_fine",
+      "reddit_post_id": "1tkjuc7",
+      "hamming": 6
+    },
+    {
+      "dev_variant": "pool_trade_offer__kymv00000",
+      "dev_family": "pool_trade_offer",
+      "reddit_post_id": "1teh8qj",
+      "hamming": 4
+    },
+    {
+      "dev_variant": "pool_two_buttons_daily_struggle__kymv00002",
+      "dev_family": "pool_two_buttons_daily_struggle",
+      "reddit_post_id": "1t1vztd",
+      "hamming": 4
+    },
+    {
+      "dev_variant": "pool_two_buttons_daily_struggle__kymv00004",
+      "dev_family": "pool_two_buttons_daily_struggle",
+      "reddit_post_id": "1tmbe16",
+      "hamming": 6
+    },
+    {
+      "dev_variant": "pool_two_buttons_daily_struggle__kymv00004",
+      "dev_family": "pool_two_buttons_daily_struggle",
+      "reddit_post_id": "1tmla5z",
+      "hamming": 6
+    },
+    {
+      "dev_variant": "pool_two_buttons_daily_struggle__kymv00024",
+      "dev_family": "pool_two_buttons_daily_struggle",
+      "reddit_post_id": "1tjx413",
+      "hamming": 2
+    },
+    {
+      "dev_variant": "pool_two_buttons_daily_struggle__kymv00028",
+      "dev_family": "pool_two_buttons_daily_struggle",
+      "reddit_post_id": "1tmbe16",
+      "hamming": 6
+    }
+  ]
+}
